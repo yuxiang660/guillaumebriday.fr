@@ -2,52 +2,7 @@
 
 # guillaumebriday.fr
 
-Source code of [guillaumebriday.fr](https://guillaumebriday.fr) built with [Jekyll](http://jekyllrb.com/), [Webpack](https://webpack.js.org/), [Tailwind CSS](https://tailwindcss.com/) and [Vue.js](https://vuejs.org/).
-
-## Installation
-
-```bash
-$ bundle install
-$ yarn
-```
-
-## Development
-
-The current folder will be generated into ./_site :
-```bash
-$ jekyll build
-```
-
-Building the assets with Webpack :
-```bash
-$ yarn dev
-
-# Or
-
-$ yarn watch
-
-# Or
-
-$ yarn prod
-```
-
-Running ESLint :
-```bash
-$ yarn lint
-```
-
-Build the site on the preview server :
-```bash
-$ jekyll serve --config _config.yml,_config.dev.yml
-$ open http://127.0.0.1:4000/
-```
-
-## Production
-
-```bash
-$ yarn prod
-$ JEKYLL_ENV=production jekyll build
-```
+Source code of [guillaumebriday.fr](https://guillaumebriday.fr) built with [Gatsby](https://www.gatsbyjs.org) and [Tailwind CSS](https://tailwindcss.com/).
 
 ## Contributing
 
