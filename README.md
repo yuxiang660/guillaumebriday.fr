@@ -6,7 +6,7 @@ Source code of [guillaumebriday.fr](https://guillaumebriday.fr) built with [Jeky
 
 ```bash
 $ bundle install
-$ npm install
+$ yarn
 ```
 
 ## Development
@@ -18,20 +18,20 @@ $ jekyll build
 
 Building the assets with Webpack :
 ```bash
-$ npm run dev
+$ yarn dev
 
 # Or
 
-$ npm run watch
+$ yarn watch
 
 # Or
 
-$ npm run prod
+$ yarn prod
 ```
 
 Running ESLint :
 ```bash
-$ npm run lint
+$ yarn lint
 ```
 
 Build the site on the preview server :
@@ -43,7 +43,7 @@ $ open http://127.0.0.1:4000/
 ## Production
 
 ```bash
-$ npm run prod
+$ yarn prod
 $ JEKYLL_ENV=production jekyll build
 ```
 

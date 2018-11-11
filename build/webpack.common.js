@@ -48,7 +48,7 @@ module.exports = {
         test: /\.(js|vue)$/,
         loader: 'eslint-loader',
         enforce: 'pre',
-        include: ['./assets/javascripts'],
+        include: [resolve('./assets/javascripts')],
         options: {
           emitWarning: true
         }

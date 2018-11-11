@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build:production"
+  command = "yarn build:production"
   publish = "_site/"
 
 [build.environment]
