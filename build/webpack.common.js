@@ -48,7 +48,7 @@ module.exports = {
         test: /\.(js|vue)$/,
         loader: 'eslint-loader',
         enforce: 'pre',
-        include: [resolve('./assets/javascripts')],
+        include: [resolve('assets/javascripts')],
         options: {
           emitWarning: true
         }
@@ -89,8 +89,8 @@ module.exports = {
       to: 'js/simple-jekyll-search.min.js'
     }]),
     new HtmlWebpackPlugin({
-      filename: '_includes/head.html',
-      template: 'assets/head.html',
+      filename: resolve('_includes/head.html'),
+      template: resolve('assets/head.html'),
       inject: false
     })
   ]
