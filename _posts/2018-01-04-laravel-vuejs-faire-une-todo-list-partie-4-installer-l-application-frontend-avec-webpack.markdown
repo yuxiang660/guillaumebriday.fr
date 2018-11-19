@@ -99,7 +99,7 @@ module: {
 
 Quelques points importants sont à noter.
 
-On va bien-sûr utiliser [vue-loader](https://vue-loader.vuejs.org/en/) pour pouvoir créer des components dans des fichiers en ```.vue```. C'est indispensable pour développer avec Vue.js, je pense.
+On va bien-sûr utiliser [vue-loader](https://vue-loader.vuejs.org/) pour pouvoir créer des components dans des fichiers en ```.vue```. C'est indispensable pour développer avec Vue.js, je pense.
 
 J'utilise toujours [Sass](http://sass-lang.com) pour écrire mon CSS. J'utilise simplement le [sass-loader](https://github.com/webpack-contrib/sass-loader) avec un test sur les fichiers ```.sass``` ou ```.scss```.
 
