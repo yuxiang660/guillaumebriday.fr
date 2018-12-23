@@ -26,7 +26,11 @@
 
 <div class="text-center mb-3" itemscope itemtype="http://schema.org/ImageObject">
     <a href="{{ url | strip }}" title="{{ include.title | strip }}" data-caption="{{ include.caption | strip }}">
+      {% if include.lazyLoad == true %}
+        <img data-src="{{ image_url | strip }}" alt="{{ alt | strip }}" itemprop="contentUrl" data-action="{{ zoom | strip }}" />
+      {% else %}
         <img src="{{ image_url | strip }}" alt="{{ alt | strip }}" itemprop="contentUrl" data-action="{{ zoom | strip }}" />
+      {% endif %}
     </a>
 
     {% if include.caption %}
