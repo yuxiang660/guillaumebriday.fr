@@ -7,7 +7,7 @@
 
     {% include header.html %}
 
-    <main id="app" class="flex-1 container mx-auto max-w-xl px-3">
+    <main {% if page.url != '/recherche/' %} id="app" {% endif %} class="flex-1 container mx-auto max-w-xl px-3">
       {{ content }}
     </main>
 
