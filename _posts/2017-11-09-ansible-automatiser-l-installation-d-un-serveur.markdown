@@ -198,7 +198,6 @@ Je me suis servi de la [documentation officielle](https://docs.docker.com/engine
 
 Pour les outils tout d'abord, c'est très simple. J'ai fait une liste des outils qui me seront utiles pour gérer le serveur et d'autres qui sont indispensables à l'installation de Docker. Plutôt que de faire une tâche par service, je vais utiliser [les boucles d'Ansible](http://docs.ansible.com/ansible/latest/playbooks_loops.html).
 
-{% raw %}
 ```yaml
 # roles/tools/tasks/main.yml
 ---
@@ -214,7 +213,6 @@ Pour les outils tout d'abord, c'est très simple. J'ai fait une liste des outils
     - curl
     - python3-pip
 ```
-{% endraw %}
 
 Le paramètre ```update_cache: yes``` permet de mettre de mettre à jour le cache des dépôts avant d'executer la commande et ainsi avoir une liste des paquets disponibles à jour.
 
@@ -222,7 +220,6 @@ Pour les outils je n'ai pas besoin d'handlers donc je ne crée pas d'autre dossi
 
 Pour Docker, l'idée est la même, je fais une tâche par élément à installer :
 
-{% raw %}
 ```yaml
 # roles/docker/tasks/main.yml
 ---
@@ -273,7 +270,6 @@ Pour Docker, l'idée est la même, je fais une tâche par élément à installer
     - mysql:latest
     - node:latest
 ```
-{% endraw %}
 
 Comme on peut le voir en fin de fichier, j'en profite pour télécharger quelques images qui me seront nécessaires plus tard, ça m'évitera d'attendre lors du déploiement.
 
@@ -324,7 +320,6 @@ Pour gérer nos templates et nos tâches propre à notre application, je vais cr
 
 Mon fichier de ```tasks``` pour le ```role``` ```app``` est donc le suivant :
 
-{% raw %}
 ```yaml
 # roles/app/tasks/main.yml
 ---
@@ -356,18 +351,15 @@ Mon fichier de ```tasks``` pour le ```role``` ```app``` est donc le suivant :
     owner: ubuntu
     group: docker
 ```
-{% endraw %}
 
 Pour interpréter une variable dans un template il suffit de l'utiliser de la façon suivante :
 
-{% raw %}
 ```yaml
 # roles/app/templates/.env.j2
 ...
 DB_PASSWORD={{ db_password }}
 ...
 ```
-{% endraw %}
 
 Et ainsi, une fois sur le serveur, le fichier ressemblera à cela :
 
