@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f1ff9daf-4123-4b27-9aab-761073812859/deploy-status)](https://app.netlify.com/sites/guillaumebriday/deploys)
+
 # guillaumebriday.fr
 
 Source code of [guillaumebriday.fr](https://guillaumebriday.fr) built with [Jekyll](http://jekyllrb.com/), [Webpack](https://webpack.js.org/), [Tailwind CSS](https://tailwindcss.com/) and [Vue.js](https://vuejs.org/).
