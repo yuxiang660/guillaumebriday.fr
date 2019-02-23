@@ -392,17 +392,13 @@
 
 - id: 32
   author: Xavier
-  date: 2019-01-319 22:19:00
+  date: 2019-01-19 22:19:00
   content: |
     Bonjour Guillaume,
-    
-    Je viens de parcourir votre blog. Merci pour votre article concernant le routeur syno que j’ai configuré facilement grâce à votre tuto.
-    Je me permets de venir vers vous afin d’avoir votre avis concernant un léger problème avec mon player orange.
-    
-    En effet, depuis que j’utilise ce routeur, à l’identique de votre tuto, je n’arrive plus à accéder à mon NAS syno depuis le player Orange.
-    J’ai essayé de le mettre en IPTV, directement sur le routeur, tout fonctionne correctement sauf l’accès au nas.
-    
-    Auriez vous une idée afin de ressouder ce désagrément ?
-    
-    Encore merci pour votre tuto,
-    Xavier
+
+    merci pour ce tuto grâce auquel j'ai pu facilement configuré mon routeur syno.
+
+    Néanmoins, je rencontre un léger problème. En effet, je n'arrive plus à accéder au NAS Syno depuis le player orange afin de me servir du mediaplayer. As tu une idée afin de solutionner ce problème ?
+    J'ai bien essayé de me mettre en direct le player orange sur le routeur, il fonctionne parfaitement (en ayant configuré l'iptv sur le lan4) mais ne détecte pas le NAS.
+
+    Merci d'avance
