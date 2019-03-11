@@ -1,0 +1,30 @@
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *:before,
+  *:after {
+    animation-duration: 0s !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  @apply font-light;
+}
+
+strong {
+  @apply font-semibold;
+}
+
+a {
+  @apply no-underline text-indigo;
+
+  &:hover {
+    @apply underline;
+  }
+}
+
+p,
+h2 {
+  @apply my-4;
+}
