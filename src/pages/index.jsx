@@ -22,7 +22,7 @@ export default ({ data: { file } }) => (
     <div className="post-content text-grey-darker">
       <p>
         Je suis développeur Web avec l'envie de partager ce que j'aime sur ce
-        blog. Tu y trouvera tous <Link to="/articles">les articles</Link> que
+        blog. Tu y trouveras tous <Link to="/articles">les articles</Link> que
         j'écris au fil de mes recherches.
       </p>
 
