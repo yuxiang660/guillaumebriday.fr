@@ -17,7 +17,7 @@ export default ({
         <PostHeader post={post} allCommentsYaml={allCommentsYaml} />
 
         <div
-          className="post-content leading-loose"
+          className="post-content"
           itemProp="articleBody"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />

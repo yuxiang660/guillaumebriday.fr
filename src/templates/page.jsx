@@ -10,7 +10,7 @@ export default ({ data: { markdownRemark: page, site } }) => (
       <h1>{page.frontmatter.title}</h1>
 
       <div
-        className="post-content leading-loose"
+        className="post-content"
         itemProp="articleBody"
         dangerouslySetInnerHTML={{ __html: page.html }}
       />
