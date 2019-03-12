@@ -1,4 +1,6 @@
 .post-content {
+  @apply leading-medium;
+
   h1,
   h2 {
     @apply mt-10;
