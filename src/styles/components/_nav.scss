@@ -1,0 +1,24 @@
+.header-link,
+.footer-link {
+  &:after {
+    @apply absolute w-0 h-px pin-l opacity-0;
+    content: '';
+    transition: 350ms width;
+    bottom: -.2rem;
+  }
+
+  &:hover, &.active {
+    &:after {
+      @apply opacity-100;
+      width: calc(100% + .01rem);
+    }
+  }
+}
+
+.header-link:after {
+  @apply bg-indigo;
+}
+
+.footer-link:after {
+  @apply bg-white;
+}

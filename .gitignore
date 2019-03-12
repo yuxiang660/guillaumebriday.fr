@@ -1,9 +1,10 @@
-_site
-_drafts
-.sass-cache
-.jekyll-metadata
-js
-css
-fonts
+# Project dependencies
+.cache
 node_modules
-_includes/head.html
+yarn-error.log
+
+# Build directory
+/public
+.DS_Store
+
+.env.production

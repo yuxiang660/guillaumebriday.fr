@@ -1,0 +1,20 @@
+.btn {
+  @apply bg-indigo-light text-white rounded-full text-xs font-semibold;
+  transition: all 350ms;
+
+  &--lightest {
+    @apply bg-indigo-lightest text-indigo;
+  }
+
+  &--sm {
+    @apply py-1 px-4;
+  }
+
+  &--link:not(:disabled):hover {
+    @apply shadow-outline-indigo;
+  }
+
+  &:disabled {
+    @apply bg-grey-light cursor-not-allowed;
+  }
+}

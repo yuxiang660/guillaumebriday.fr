@@ -1,0 +1,45 @@
+.text-input {
+  @apply shadow appearance-none outline-none border rounded w-full p-4 text-grey-darker;
+
+  &[type=email]:not([value=""]):invalid {
+    @apply border-red-light;
+  }
+}
+
+.ais-InstantSearch__root {
+  @apply flex-1 w-64;
+}
+
+.react-autosuggest {
+  &__suggestions-container {
+    @apply hidden;
+  }
+
+  &__container {
+    @apply relative;
+
+    &--open .react-autosuggest__suggestions-container {
+      @apply block rounded-lg border bg-white absolute overflow-hidden shadow-md pin-x w-full;
+      top: 40px;
+      z-index: 2;
+    }
+  }
+
+  &__input {
+    @apply appearance-none outline-none py-1 px-2 text-grey-darker w-full;
+  }
+
+  &__suggestions-list {
+    @apply list-reset;
+  }
+
+  &__suggestion {
+    a {
+      @apply block px-4 py-3 bg-white;
+    }
+
+    &:not(:last-child) {
+      @apply border-b;
+    }
+  }
+}

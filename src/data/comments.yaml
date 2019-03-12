@@ -1,0 +1,681 @@
+---
+
+- id: "1"
+  slug: un-mac-pour-le-prix-de-deux
+  author: Xavier Lasserre
+  date: 2016-11-21 16:53:11
+  content: |
+    Je vais pas vraiment porter d’avis perso là dessus vu que je ne n’utilise pas de Mac ni pour bosser ni pour la vie de tous les jours, mais je relève un point pour lequel je suis également hyper enthousiaste : l’USB-C !
+    Le seul problème à mon avis c’est qu’on va pouvoir attendre encore 2 ans à peu près avant que tout passe par là, la transition va se faire attendre…
+    Et pour le petit mot de la fin, il est où mon port jack qui m’empêchait d’avoir une perte sur les fréquences basses et une retransmission « parfaite » de mon son car je n’étais pas obligé de passer par des adaptateurs multipliant les connexions ou du bluetooth rajoutant une compression du signal hein ? Il est où ? Ce bon vieux jack qui me permettait d’entendre chaque petit infime son participant à la beauté parfaite d’une musique que j’aurais téléchargé en ce format magique qu’est le FLAC ? /s 😉
+
+- id: "2"
+  slug: un-mac-pour-le-prix-de-deux
+  author: Guillaume Briday
+  date: 2016-11-21 17:13:06
+  content: |
+    Le truc c’est que si aucun constructeur ne l’impose à un moment personne ne voudra changer, c’est beaucoup trop simple de rester dans ses petites habitudes même si elles sont contre-productives à souhait.
+    À chaque changements majeurs les gens râlent et se rendent compte 1 an après que c’est mille fois mieux pour eux. 🙂
+    Il y a un port jack sur le rMBP.
+
+- id: "3"
+  slug: "se-connecter-via-ssh-a-un-serveur-distant"
+  author: Rami
+  date: 2017-08-15 17:34:40
+  content: |
+    Tres interessant
+
+- id: "4"
+  slug: "se-connecter-via-ssh-a-un-serveur-distant"
+  author: Guillaume Briday
+  date: 2017-08-15 23:43:40
+  content: |
+    Merci Rami !
+
+- id: "5"
+  slug: "installer-et-utiliser-les-gitlab-runners"
+  author: kara
+  date: 2018-09-13 11:30:00
+  content: |
+    bonjour tout le monde, svp comment lancer plusieurs instance de gitlab-runner ?
+
+- id: "6"
+  slug: "installer-et-utiliser-les-gitlab-runners"
+  author: Guillaume Briday
+  date: 2018-09-29 07:26:00
+  content: |
+    Bonjour Kara,
+    Qu'est-ce que tu entends par lancer plusieurs instance de `gitlab-runner` et pourquoi faire ?
+    Avec une seule instance de `gitlab-runner`, tu peux lancer une une infinité de jobs et même sur différents projets et/ou serveurs via plusieurs runners.
+    Tu peux donc lancer la commande `gitlab-runner register` autant de fois que nécessaire sur une même instance ! Il y aura ainsi plusieurs configurations de `runners` dans ton fichier `~/.gitlab-runner/config.toml`.
+
+- id: "7"
+  slug: "docker-ameliorer-les-performances-avec-le-cache"
+  author: Alec Eiffel
+  date: 2018-07-05 17:27:35
+  content: |
+    Je suppose que ces options ne fonctionnent pas sous Windows ?
+
+- id: "8"
+  slug: "docker-ameliorer-les-performances-avec-le-cache"
+  author: Guillaume Briday
+  date: 2018-07-22 23:50:00
+  content: |
+    Salut Alec, à vérifier sur la documentation mais je crois bien que si.
+
+- id: "9"
+  slug: "docker-ameliorer-les-performances-avec-le-cache"
+  author: Christophe Caron
+  date: 2018-09-26 01:06:00
+  content: |
+    Vous pouvez également vous tourner vers docker-sync qui fait des prouesses en terme de performances.
+
+- id: "10"
+  slug: "docker-ameliorer-les-performances-avec-le-cache"
+  author: Guillaume Briday
+  date: 2018-09-29 07:26:00
+  content: |
+    Salut Christophe, je ne connaissais pas du tout, ça à l'air cool je vais tester dès que possible !
+
+    Merci !
+
+- id: "11"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Lulu
+  date: 2017-02-18 02:15:01
+  content: |
+    Bonnet merci pour votre article.. cependant comment faire pour communiquer avec le player de la livebox et d'autres périphériques car il y a un prie tre les adresse IP qui ne sont pas sur la même plage!
+
+    Merci
+
+- id: "12"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Guillaume Briday
+  date: 2017-02-21 18:05:55
+  content: |
+    Bonjour, je ne suis pas sûr d’avoir compris votre question, pouvez-vous détailler ? Merci 🙂
+
+- id: "13"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Arnaud
+  date: 2017-02-28 10:45:59
+  content: |
+    Bonjour Guillaume, merci pour cet article qui est très bien expliqué. Juste une petite question concernant le player TV Orange. Ou faut il le brancher pour conserver le flux IPTV et VOD. Sur un port LAN du rt1900ac ou sur un port LAN de la LiveBox ?
+
+    Merci de ton aide.
+
+- id: "14"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Guillaume Briday
+  date: 2017-03-08 23:33:27
+  content: |
+    Merci pour ton retour :) J'ai essayé qu'une seule fois et de mémoire ça marche très bien directement sur le Synology. A tester pour être sûr, si tu peux nous confirmer ça, ce serait top !
+
+- id: "15"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Paul
+  date: 2017-03-08 18:00:43
+  content: |
+    Bonjour Guillaume,
+
+    Merci et bravo pour la qualité de ton article ! Après plusieurs recherches, tu es le seul à avoir écrit un article sur le sujet.
+    J'avais une petite question, sachant que le trafic entrant est redirigé de la Livebox vers le RT1900ac, qu'en est-il du trafic sortant ?
+    Dois-je faire mes règles NAT/PAT sur le routeur synology, la livebox, ou les deux ?
+
+    As-tu rencontré des soucis particuliers ?
+
+    Merci de ton retour et encore bravo pour ton travail !
+
+- id: "16"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Guillaume Briday
+  date: 2017-03-08 23:31:02
+  content: |
+    Bonjour Paul,
+
+    Merci pour ton retour ! Alors pour ce qui est des flux sortants le principe est exactement le même, une fois ton routeur dans la DMZ, tu n'as plus rien à faire, tous les échanges qui tu fais via ton Synology seront redirigés sur la livebox puis vers internet. Aucune règle NAT/PAT à configurer et je n'ai, avec cette configuration, eu aucun souci.
+
+    Si tu as d'autres questions n'hésite pas :)
+
+- id: "17"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Jordan
+  date: 2017-03-10 23:08:14
+  content: |
+    Rencontres-tu une baisse de débit.
+
+    Car moi ayant presque 1Gbits de bande passante, je passe à 200Mbits en gardant ma LiveBox.
+
+- id: "18"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Guillaume Briday
+  date: 2017-03-11 13:00:06
+  content: |
+    Bonjour, les speedtests en étant sur la Livebox directement ou en passant par le Synology sont significativement les mêmes donc aucun problème pour moi à ce niveau là.
+
+- id: "19"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Paul
+  date: 2017-03-15 17:20:20
+  content: |
+    Parfait ! Merci beaucoup pour ton retour.
+
+    As-tu mis en place le LoadBalancing + Failover ?
+
+    Je l'installe ce soir, je te ferais un retour après quelques jours d'utilisation si tu veux. :)
+
+    Bonne journée !
+
+- id: "20"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Guillaume Briday
+  date: 2017-03-18 14:36:48
+  content: |
+    Aucun des deux, je n'en ai pas le besoin. Je suis tout seul (ou presque) à me servir de mon réseau et du NAS. Je sature ma connexion bien trop occasionnellement pour mettre le LoadBalancing en place.
+
+    Et pour le Failover, je n'ai qu'une connexion qui ne coupe que très rarement (voire jamais) et au pire, je relance la Livebox et c'est reparti. :)
+
+    Ah oui ce serait top ! Avec plaisir, merci à toi.
+
+- id: "21"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: trotroyanas
+  date: 2017-03-27 22:33:34
+  content: |
+    Bonsoir Guillaume,
+
+    Merci de cet article je suis exactement dans cette configuration.
+    Seulement après avoir fait tout ce que tu as dit, Routeur Syno dans la DMZ de la LiveBox, ajout de règles de transfert de ports du router vers mon nas, rien n'y fait, de l'extérieur c'est tjrs choux blanc.
+    Chose étrange il me change bien mon adresse en https ? 8000-> vers 8001 et 5000 -> 5001 pour mon nas mais rien derriere une page d'erreur pour ces 2, et pour mon sftp j'ai le droit à un message "le service que vous demandez ne repond pas.
+
+    Veuillez contacter votre service client" je sais meme pas d'ou il sort ce message.. testé de mon tel en 4g
+    Une idée ?
+
+    Merci d'avance
+    cH.
+
+- id: "22"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Guillaume Briday
+  date: 2017-04-07 17:42:01
+  content: |
+    Salut, tu as essayé en accès direct pour savoir si le problème venait vraiment de ta configuration ? :)
+
+- id: "23"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Guy
+  date: 2017-04-06 19:39:54
+  content: |
+    Bonjour Guillaume,
+
+    Merci pour votre article que j'ai suivi pour configurer mon routeur placé derriere une LiveBox 4
+    Tout fonctionne (j'ai de nombreux matériels en câblés et en Wifi), à l'exception de la TV Orange sur la Livebox 4 Player
+    Comment cela se fait il ?
+    J'avais entendu parler de Vlan/Muxid/ 835 et (838 à 841) à configurer. Comment et ou les configurer ?
+
+    Merci d'avance
+
+    Cordialement
+
+    Guy
+
+- id: "24"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Simon
+  date: 2017-07-07 14:53:50
+  content: |
+    Hello,
+
+    J'ai trouvé ton article en tentant de trouver sur internet la solution à mon problème. Pour ma part, j'ai bien fais la même chose que ce que tu indiques, mais le soucis que je rencontre c'est qu'en local le loopback ne fonctionne pas.
+
+    Pour être plus précis, derrière mon Syno RT j'ai un NAS Syno et j'ai mon service de DDNS qui est connecté à OVH (autant sur le RT que sur le NAS). Autant en 4g j'ai accès au NAS autant en local il n'y arrive pas (cf délai trop long...).
+
+    Une idée ?
+
+    Merci à toi
+
+- id: "25"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Geoffrey
+  date: 2017-10-05 17:06:00
+  content: |
+    Bonjour Guillaume,
+
+    Avant toute chose, je tenais à vous remercier pour votre tutoriel sur l’installation d’un routeur RT1900AC en DMZ sur une Livebox !
+
+    Merci, car il est en effet très rare de trouver des tutoriels complets comme le vôtre. :)
+
+    Je me permets de vous contacter, pour avoir une information complémentaire qui ne figure pas dans votre tutoriel.
+
+    Vous indiquez, dans la partie « Configuration du routeur RT1900AC »,  je cite : « Dans l’onglet Internet > Connection pensez bien à mettre le Set as default Gateway »
+
+    Je ne comprend pas de quoi s’agit-il ?
+
+    Pour information, je compte effectué la même configuration sur une Bbox :
+
+    IP WAN     |     Bbox  | IP Lan                   -> DMZ sur          IP WAN            |   RT1900AC   |  IP Lan
+
+    5.xx.xxx.xxx/32   |   192.168.1.1/24                         192.168.1.2/24   |                      | 192.168.2.1/24
+
+
+    Je pense qu’il faut indiquer « Type de connexion » en Manuel, mais je n’arrive pas à voir quoi renseigner à la suite de ceci :
+
+    Adresse IP  :  Wan extérieur ? LAN Bbox ?
+    Passerelle : Lan Bbox ?
+
+
+    Je ne possède pas encore le routeur, mais ça ne saurait tarder, aussi j’anticipe sur ces questions qui vont se poser pour moi très rapidement…
+
+    En vous remerciant sincèrement par avance du tremps consacré à répondre à cette interrogation.
+
+    Bien cordialement.
+
+    Geoffrey
+
+- id: "26"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Guillaume Briday
+  date: 2017-10-07 13:55:00
+  content: |
+    Bonjour Geoffrey,
+
+    Tout d'abord, merci pour tes compliments et ta question, ça fait super plaisir.
+
+    Pour répondre à ta question, le `Set as default Gateway` permet de dire aux éléments du réseau local que c'est par cette adresse (celle du routeur) qu'ils doivent envoyer leurs paquets pour accéder au réseau extérieur et inversement si les paquets viennent de l'extérieur. Sans ça, les clients de ton réseau local pourrons communiquer entre eux, mais pas vers l'extérieur.
+
+    Pour ta configuration, il faut distinguer deux choses, ton interface primaire et ton ip locale. Ton interface primaire doit être l'adresse que tu as définie sur ta livebox (dans ton cas `192.168.1.2`) et ta Gateway doit être `192.168.1.1` (ta livebox). Et pour ton ip locale tu peux mettre ce que tu veux, mais dans ton exemple c'est `192.168.2.1`.
+
+    Je vais voir si j'ai le temps de faire une modification sur l'article pour expliquer ce point.
+
+    En espérant avoir répondu à ta question :)
+
+- id: "27"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Olivier
+  date: 2017-10-26 09:20:01
+  content: |
+    Merci pour ton tuto, il m'a bien servi pour connecter mon RT1900 sur ma livebox zen. J'ai pu le mettre à jour et m'apercevoir que SRM a bien évolué.
+
+- id: "28"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Guillaume Briday
+  date: 2017-11-03 20:54:00
+  content: |
+    Merci Olivier pour ton commentaire. Oui SRM et DSM évoluent très vite en restant très stable c'est super agréable à l'usage !
+
+- id: "29"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Pilou
+  date: 2017-11-27 11:00:46
+  content: |
+    Bonjour Guillaume, merci pour le tuto très complet.
+
+    Je suis intéressé par ce Routeur, mais une question reste ouverte pour moi.
+
+    Je souhaiterais l'installer dans le cadre d'un Gite, et donc n'ouvrir que le réseau invité au client.
+
+    Est-ce que celui-ci est bridé?
+
+    J'aimerais interdire l'accès au P2P (Hadopi), aux sites illictes (genre pédo-pornographie), mais laisser quand même certains accès (Steam par exemple).
+
+    Est-ce qu'il le permet?
+
+    Enfin dernière question: Si jamais un client contourne les protections, est-ce qu'il y a un journal de connexion (moins consommateur de bande passante que le CTF).
+
+    Merci d'avance pour ton retour.
+
+- id: "30"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Guillaume Briday
+  date: 2017-11-27 20:00:00
+  content: |
+    Bonjour Pilou merci pour ton retour !
+
+    Alors, je viens de faire le test sur SRM (1.1.5-6542 Update 4), la seule option que j'ai trouvé par rapport au réseau invité à ce niveau-là c'est de l'isoler du réseau principal...
+    Je crois que ce n'est pas encore possible sur SRM, mais je sais que pfSense le permet, en revanche on est à des années-lumière de la simplicité et de l'ergonomie de SRM en terme de mise en place.
+
+    Par contre, tu peux mettre des filtres sur certaines catégories de sites ou service par défaut sur tous les appareils, mais le couper pour certains (les tiens). Tu peux aussi filtrer les sites par url. Je m'en sers personnellement pour bloquer la publicité et le phishing par exemple. Tu peux trouver plus d'infos ici : [https://www.synology.com/en-us/knowledgebase/SRM/help/SRM/RouterApp/parentalcontrol_keyword](https://www.synology.com/en-us/knowledgebase/SRM/help/SRM/RouterApp/parentalcontrol_keyword)
+
+    Pour la seconde question, à ma connaissance tu ne pourras pas avoir un journal de connexion sans CTF, tu pourras avoir un "top" des sites visités, mais pas historisés et groupés par devices.
+
+    J'espère avoir répondu à la question !
+
+    Merci à toi.
+
+- id: "31"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Pilou
+  date: 2017-11-28 09:27:19
+  content: |
+    Bonjour Guillaume,
+
+    Ça me semble pas mal ces catégories, ainsi que la possibilité d'ajouter manuellement des URL.
+
+    De ton point de vue, le filtrage fishing (difficile à quantifier) et advertising sont-ils efficaces?
+
+    En ce qui concerne le logging du traffic, j'ai vu sur ton tweet que pour quantifier les 2 vitesses, tu activais les 2 options ("save visited web pages", "enable detection application").
+
+    De ce que je comprends de l'image, c'est justement la 2e option qui a un gros impact sur le débit.
+
+    Je vais surement investir dans cet équipement (j'ai un NAS Syno dont je suis très content, j'ai envie de continuer avec eux), je te ferais part de mon expérience à ce moment-là.
+
+    En tout cas merci dans pour ton retour!
+
+- id: "32"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Guillaume Briday
+  date: 2017-11-29 13:27:00
+  content: |
+    Oui c'est top et ça marche vraiment bien. Effectivement le fishing je n'ai pas eu l'occasion de tester, mais pour la publicité et le reste c'est devenu la règle par défaut sur tous mes appareils.
+
+    Pour la publicité, ça filtre pas tout, mais une partie seulement. Dans la plupart des cas on peut voir que les js sont bloqués même sans bloqueur de pub sur le navigateur. :)
+
+    Ah oui bien-sûr, sur twitter j'ai décoché les deux cases pour faire des tests mais c'est bien la deuxième qui est problématique, la première n'a pas d'influence et permet d'avoir un rapport plus complet.
+
+    Oui j'aimerais bien avoir un retour dans le cas d'un gîte.
+
+    Merci à toi !
+
+- id: "33"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Yann@44-Atlantique-PC-Assistance-Informatique
+  date: 2018-01-19 18:39:45
+  content: |
+    Article clair même s’il vaut mieux s’y connaitre un minimum en réseau pour le comprendre! Je réalise à peu près la même chose avec un routeur Netgear connecté derrière la box, mais suis intéressé par ce routeur Synology... intéressant qu’un DDNS soit proposé, c’est dingue qu’un FAI comme Orange ne le propose toujours pas... ça permettrait de pallier aux IP qui ne sont toujours pas fixes (gratuitement) pour les particuliers.
+
+- id: "34"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Daniel
+  date: 2018-02-28 13:45:23
+  content: |
+    Bonjour Guillaume,
+
+    Merci pour ce tuto. Je suis dans la même configuration que toi:
+    - Livebox pro v4 fibre: quand je suis connecté dessus en ethernet ou wifi n, un speed test donne 200Mb/s en DOWN et 200Mb/s en UP) -> OK
+    - Une fois mon routeur rt1900ac (config basique) branché sur la livebox, les débits sont imcompréhensibles:
+    speed test avec mon pc connecté en wifi n au RT: 20Mb/s en DOWN et en UP
+    speed test avec mon pc connecté en ethernet (Cat6) au RT: 20Mb/s (environ) en DOWN et 200Mb/s en UP :O
+
+    Si tu as une idée, je suis preneur
+
+- id: "35"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Guillaume Briday
+  date: 2018-03-04 20:27:00
+  content: |
+    Bonjour Daniel,
+
+    As-tu regardé du côté des CTF ? J'avais des problèmes similaires et ça venait de cette config.
+
+    J'en parle dans l'edit 2 si besoin.
+
+- id: "36"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Emmanuel
+  date: 2018-03-08 08:48:39
+  content: |
+    Bonjour à vous, et comme les autres, merci pour ce tuto et ces informations :)
+    Pour ma part, j'ai configuré un syno 2600 derrière une livebox.
+    Le système est opérationnel et tous mes éléments présent dans le réseau 192.168.2/24 du routeur syno ont bien accès au web et tout transite correctement.
+    Malheureusement, lorsque je tente d’accéder depuis l'extérieur à des éléments interne (derrière le syno), je suis tout de même dans l'obligation d'ouvrir les ports depuis la livebox vers le routeur malgré que celui-ci soit mis en DMZ sur cette dernière.
+    Je me dis que peut-être vous aviez rencontré cet anomalie ?
+
+    J'avais déjà lu que la livebox ne savait pas gérer correctement la DMZ, il semble que ce soit le cas pour moi, ou alors, il y a un paramétrage de son côté que j'ai oublié :/
+
+    Par avance merci de votre retour :)
+
+- id: "37"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Octavi
+  date: 2018-04-17 10:03:22
+  content: |
+    Bonjour, j'ai suivi tout le tutoriel et tout fonctionne bien, sauf que je ne peux accéder à aucun périphérique de l'extérieur. J'ai ouvert plusieurs ports comme le 5001 pour le NAS et il n'y a aucun moyen. J'utilise DynDNS et il est bien configuré car il me marque bien. Je ne sais pas pourquoi mais j'ai un double NAT, je ne comprends pas pourquoi puisque la LIvebox est en mode DMZ pointant vers la RT1900AC. J'ai Internet dans tous les appareils avec câble et avec Wifi. Que pourrait-il être? Y a-t-il une solution?
+
+    Merci beaucoup pour votre travail, c'est génial.
+
+- id: "38"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Rank Xerox
+  date: 2018-04-18 20:02:15
+  content: |
+    Bonjour,
+
+    Merci pour ce tuto, sans lequel, je n'aurais pas réussi à configurer le routeur Syno avec ma Livebox.
+
+    Il me reste un problème qui concerne l'IP V6 (en http). En étant connecté directement en filaire sur la LB, l'accès aux adresses IPV6 est nickel, si par contre, je suis connecté coté RT1900ac, toujours en filaire, je n'ai plus d'accès. Avec un navigateur, j'ai le message "La connexion a échoué" sans la moindre attente.
+
+    Côté RT1900ac, et configuration "réseau local", l'activation est impossible. La liste déroulante "prefixe" est vide. Je connais celui de ma box, mais rien pour le saisir.  Dans la partie configuration "internet", le mode est auto, mais ne donne rien. J'ai essayé le mode "manuel" en entrant le prefixe fournir par la LB (/56) et l'adresse WAN IPV6, mais j'ai un message d'erreur (adresse déja prise).
+
+    Donc, je ne sais pas trop comment configurer l'IPV6 sur le RT1900ac.
+
+    Merci pour avance tous conseils, éclairages, ...
+    l'IP V6 est configuré en "auto", mais cela ne fonctionne pas.
+
+- id: "39"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Rank Xerox
+  date: 2018-10-09 11:30:00
+  content: |
+    Bonjour Guillaume;
+
+    Merci beaucoup pour ce tuto, très utile :)
+
+    A toutes fins utiles : une MaJ des RT2600ac et RT1900ac a été publiée le 4 octobre (firmware 1.2) et semble permettre de remplacer la livebox en DHCP au lieu du PPOE.
+
+    Le nouveau wizzard de configuration permet de configurer l'option 12, l'option 60, l'option 61 et peut être l'option 90 :)
+
+    Penses-tu pouvoir tester ce nouveau firmware et nous faire un retour via une nouvelle update ?
+
+- id: "40"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Guillaume Briday
+  date: 2018-10-14 23:25:00
+  content: |
+    Salut Rank !
+
+    J'ai vu les nouveautés, mais je n'ai pas encore pu jouer avec malheureusement !
+
+    Je vais tester dès que j'aurais de nouveau une box chez moi et je ferais un retour si je trouve des trucs intéressant à dire dessus oui !
+
+- id: "41"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Darmagezan
+  date: 2018-10-30 07:11:00
+  content: |
+    Bonjour la communauté.
+
+    Je souhaiterais savoir si le rt1900 ou rt2600 propose la création de Vlan ?
+
+    Merci par avance et bonne journée :)
+
+- id: "42"
+  slug: "comprendre-et-mettre-en-place-docker"
+  author: Nicolas Dutertry
+  date: 2017-07-13 16:41:46
+  content: |
+    Bon article pour comprendre Docker !
+
+    Attention tout de même à l'utilisation des links. Ils ne doivent normalement plus être utilisés d'après la doc de Docker : [https://docs.docker.com/engine/userguide/networking/default_network/dockerlinks/](https://docs.docker.com/engine/userguide/networking/default_network/dockerlinks/)
+
+    Pour la communication entre conteneur il vaut mieux utiliser un réseau utilisateur.
+
+- id: "43"
+  slug: "comprendre-et-mettre-en-place-docker"
+  author: Guillaume Briday
+  date: 2017-07-13 23:56:00
+  content: |
+    Salut Nicolas et merci pour ton retour !
+
+    Effectivement, les links sont passés en deprecated. Pour être honnête, j'ai appris Docker avec les links et je n'ai pas eu le temps de me pencher en profondeur sur les networks. Je suis en train de faire des tests et de chercher pas mal d'infos dessus.
+
+    L'idée est de faire un article sur les networks et la version 3 de docker-compose prochainement ! :)
+
+    Merci !
+
+- id: "44"
+  slug: "comprendre-et-mettre-en-place-docker"
+  author: Stefan
+  date: 2018-02-08 10:47:12
+  content: |
+    Merci pour ces éclaircissements sur Docker
+
+- id: "45"
+  slug: "comprendre-et-mettre-en-place-docker"
+  author: Hugo
+  date: 2018-12-18 10:07:00
+  content: |
+    Très bon article, merci !
+
+- id: "46"
+  slug: "comment-jutilise-git-mes-astuces-et-bonnes-pratiques"
+  author: Louis
+  date: 2018-04-25 13:17:48
+  content: |
+    Très bonne explication, tout y est. Bravo !
+
+- id: "47"
+  slug: "comment-jutilise-git-mes-astuces-et-bonnes-pratiques"
+  author: Guillaume Briday
+  date: 2018-04-26 10:12:00
+  content: |
+    Salut Thibault, merci pour tes retours !
+
+- id: "48"
+  slug: "comment-je-sauvegarde-mes-donnees"
+  author: clément
+  date: 2017-08-18 16:31:17
+  content: |
+    Salut Guillaume,
+
+    Pour sauvegarder mon MBP, je peux utiliser l'outil TimeMachine sur un DDE ou sur un système de Cloud virtuel.
+
+    Est-ce bien ce que tu as expliqué?
+
+- id: "49"
+  slug: "comment-je-sauvegarde-mes-donnees"
+  author: Guillaume Briday
+  date: 2017-08-18 22:52:17
+  content: |
+    Salut Clément,
+
+    Alors, Time Machine peut être utilisé sur trois types de périphériques.
+
+    Tout d'abord, le Mac sur lequel il se trouve, mais dans ce cas la sauvegarde n'existe pas, c'est juste pour avoir un historique de tes fichiers.
+
+    Ensuite, un HDD externe oui bien sûr, c'est une solution correcte. Le problème étant que les HDD externes ne peuvent pas être vu comme fiable surtout si c'est ta seule sauvegarde donc c'est pas mal, mais on peut faire mieux. Après ça fait le taff.
+
+    Et enfin, un NAS sur un réseau local, mais pas de Cloud directement, Time Machine ne peut pas le faire. Par contre, j'explique que je sauvegarde ma sauvegarde Time Machine dans le cloud, ça c'est possible et même conseillé.
+
+    Le NAS pouvant être une solution coûteuse, partir sur un HDD est une bonne solution pour Time Machine. Tu as aussi des solutions de Cloud standard pour ton Mac comme Backblaze ou Crashplan pour ne citer qu'eux.
+
+    En espérant avoir répondu à ta question :)
+
+- id: "50"
+  slug: "bien-configurer-son-environnement-de-developpement"
+  author: Jennifer
+  date: 2018-08-12 16:52:43
+  content: |
+    Bonjour,
+
+    Merci pour cet article très bien expliqué. Seulement je ne comprends pas ou retrouver les applications téléchargées et comment les ouvrir pour les faire fonctionner sur mon mac.
+
+    Je te remercie par avance pour ton aide
+
+    Jennifer
+
+- id: "51"
+  slug: "bien-configurer-son-environnement-de-developpement"
+  author: Guillaume Briday
+  date: 2018-07-22 23:50:00
+  content: |
+    Salut Jennifer,
+
+    Brew s'occupe de tout pour les applications, tu n'aura pas besoin de les retrouver dans le Finder car elles seront directement installées.
+
+    C'est ce qui est vraiment top avec ce système !
+
+- id: "52"
+  slug: "ajouter-de-la-ram-sur-un-synology-1515+"
+  author: Thibault
+  date: 2018-03-04 11:08:10
+  content: |
+    Merci Guillaume pour les photos top qualités !
+    J'ai également rajouté de la RAM car j'étais souvent à 80%, et je peux encore rajouter des applications. En plus avec les Quad cores actuels dans les NAS, pas de soucis pour gérer toutes ses applications.
+
+    Je regrette seulement qu'on ne puisse pas changer la taille dela RAM sur les modèles J, car j'ai un modèle 213J chez mes parents, et je l'aurais bien passé à 1 Go mais elle est soudée d'après la documentation Synology... dommage.
+
+    Concernant mon problème, j'avais aussi une bonne occupation RAM, mais je voulais savoir ce qu'il y avait "dedans" : http://synology.pc-fute.com/utilisation-ram-nas/ ce tuto détaille comment "voir" ce qu'il y a dans la RAM.
+
+    De mon côté, j'ai 60% d'utilisation de la RAM qui est du "cache et tampon", j'imagine que c'est optimal car elle est utilisée, et ça me va car j'ai rajouté de la RAM pour qu'elle soit utilisée. ;)
+    Je  n'ai pas poussé les tests à lancer un benchmark pour comparer la hausse de performances après l'ajout de la RAM car je ne savais pas faire.
+
+    Cela pourrait faire l'objet d'un article Guillaume :D
+
+- id: "53"
+  slug: "ajouter-de-la-ram-sur-un-synology-1515+"
+  author: Guillaume Briday
+  date: 2018-03-04 20:38:00
+  content: |
+    Salut Thibault, merci pour tes retours !
+
+    Oui c'est vraiment top d'avoir plus de RAM. Pour les modèle J, on ne peut pas car ce sont des modèles entrés de gamme et la quantité de RAM est pertinente, je trouve, pour la puissance très faible des CPU qu'il y a dedans. Si tu as besoin de plus de RAM, il faut passer à la gamme supérieur.
+
+    Je vais regarder ça de plus prêt, je m'étais posé la question pour mettre un SSD pour gérer le cache pour ne pas saturer la RAM inutilement.
+
+    Merci, à bientôt !
+
+- id: "54"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: Xavier
+  date: 2019-03-19 22:19:00
+  content: |
+    Bonjour Guillaume,
+
+    merci pour ce tuto grâce auquel j'ai pu facilement configuré mon routeur syno.
+
+    Néanmoins, je rencontre un léger problème. En effet, je n'arrive plus à accéder au NAS Syno depuis le player orange afin de me servir du mediaplayer. As tu une idée afin de solutionner ce problème ?
+    J'ai bien essayé de me mettre en direct le player orange sur le routeur, il fonctionne parfaitement (en ayant configuré l'iptv sur le lan4) mais ne détecte pas le NAS.
+
+    Merci d'avance
+
+- id: "55"
+  slug: "laravel-vuejs-faire-une-todo-list-partie-7-gerer-nos-taches-avec-vuex-et-axios"
+  author: Mathias
+  date: 2019-02-22 08:48:00
+  content: |
+    Super article super détaillé, et accessible ! Good job
+
+- id: "56"
+  slug: "laravel-vuejs-faire-une-todo-list-partie-7-gerer-nos-taches-avec-vuex-et-axios"
+  author: Guillaume Briday
+  date: 2019-02-23 16:04:00
+  content: |
+    Salut Mathias !
+
+    Merci pour ton retour, j'espère avoir pu aider un peu !
+
+- id: "57"
+  slug: "installer-et-utiliser-les-gitlab-runners"
+  author: Carlito
+  date: 2019-01-23 14:20:00
+  content: |
+    Bonjour
+
+    J'heberge GitLab moi même.
+
+    Au moment de définir sur quel support le Runner doit lancer les pipelines, j'ai du mal a comprendre quelle technologie choisir. Dans l'article, vous avez indiqué que vous avez choisi Docker.
+    Mais cela implique d'installer Docker sur mon serveur ?
+
+    Mon but est de faire des test d'intégration continue sur des projets php (test unitaires, phpmetrics)
+    Je vous remercie par avance
+
+- id: "58"
+  slug: "installer-et-utiliser-les-gitlab-runners"
+  author: Guillaume Briday
+  date: 2019-02-23 16:11:00
+  content: |
+    Bonjour Carlito,
+
+    Pour utiliser Docker comme service pour le runner oui il doit être installé sinon le runner ne pourra pas se connecter sur la socket de Docker.
+
+    Tu n'as rien besoin de faire de plus, une fois installé Gitlab runner s'occupe de tout
