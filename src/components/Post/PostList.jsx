@@ -7,7 +7,7 @@ export default ({ posts }) => (
       .filter(post => post.node.frontmatter.title.length > 0)
       .map(({ node: post }) => (
         <li
-          className="mb-6"
+          className="mb-8"
           key={post.id}
           itemScope=""
           itemType="http://schema.org/BlogPosting"
@@ -20,7 +20,7 @@ export default ({ posts }) => (
             {post.frontmatter.category}
           </Link>
 
-          <h2 className="font-semibold m-0 leading-tight">
+          <h2 className="font-semibold mb-0 mt-2 leading-tight">
             <Link to={post.fields.slug} className="text-black">
               <span itemProp="name">{post.frontmatter.title}</span>
             </Link>
