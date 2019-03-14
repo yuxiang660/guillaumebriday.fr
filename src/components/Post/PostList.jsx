@@ -20,7 +20,7 @@ export default ({ posts }) => (
             {post.frontmatter.category}
           </Link>
 
-          <h2 className="font-semibold m-0">
+          <h2 className="font-semibold m-0 leading-tight">
             <Link to={post.fields.slug} className="text-black">
               <span itemProp="name">{post.frontmatter.title}</span>
             </Link>

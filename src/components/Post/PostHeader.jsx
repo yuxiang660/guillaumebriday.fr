@@ -16,7 +16,7 @@ export default ({ post, allCommentsYaml }) => {
         {post.frontmatter.category}
       </Link>
 
-      <h1 className="mb-2 text-4xl text-black" itemProp="name">
+      <h1 className="mb-2 text-4xl text-black leading-tight" itemProp="name">
         {post.frontmatter.title}
       </h1>
 
