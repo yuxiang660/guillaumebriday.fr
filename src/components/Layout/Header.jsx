@@ -25,8 +25,8 @@ export default ({ isBlog }) => {
     activeClassName(isBlog || isPartiallyCurrent)
 
   return (
-    <header className="container mx-auto max-w-2xl px-3">
-      <nav className="text-grey border-b-2">
+    <header className="px-3 shadow">
+      <nav className="container max-w-2xl text-grey">
         <div className="-my-2px py-4 flex flex-col md:flex-row flex-wrap justify-between items-baseline">
           <Link
             className="mr-4 text-2xl text-grey-darker hover:no-underline flex-no-shrink font-normal"
