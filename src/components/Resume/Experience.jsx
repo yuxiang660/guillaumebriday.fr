@@ -2,7 +2,7 @@ import React from 'react'
 
 export default () => (
   <section className="py-8 bg-grey-lighter">
-    <div className="container mx-auto max-w-2xl px-3">
+    <div className="container max-w-2xl px-3">
       <h2 className="uppercase text-center text-4xl font-bold mb-8">
         Expérience
       </h2>

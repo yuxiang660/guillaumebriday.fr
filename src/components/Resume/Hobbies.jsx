@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default () => (
   <section className="pt-8 pb-16 bg-grey-lighter">
-    <div className="container mx-auto max-w-lg px-3">
+    <div className="container max-w-lg px-3">
       <h2 className="uppercase text-center text-4xl font-bold mb-8">
         Mes centres d'intérêts
       </h2>

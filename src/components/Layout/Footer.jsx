@@ -16,7 +16,7 @@ export default () => {
 
   return (
     <footer className="bg-grey-footer text-white px-3 py-6">
-      <div className="container mx-auto max-w-xl ">
+      <div className="container max-w-xl ">
         <p className="m-0 text-2xl font-bold">{site.siteMetadata.title}</p>
 
         <div className="flex flex-col md:flex-row justify-between py-4">

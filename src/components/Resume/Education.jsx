@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default () => (
-  <section className="py-8 container mx-auto max-w-2xl px-3">
+  <section className="py-8 container max-w-2xl px-3">
     <h2 className="uppercase text-center text-4xl font-bold mb-8">Formation</h2>
 
     <article className="mb-8 py-6 border-b flex flex-wrap md:flex-no-wrap">
