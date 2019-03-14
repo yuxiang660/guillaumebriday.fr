@@ -21,7 +21,7 @@ export default ({ pageContext: { previous, next } }) => (
           <Link
             to={previous.fields.slug}
             rel="prev"
-            className="font-semibold text-2xl text-grey-darkest"
+            className="font-semibold text-2xl text-grey-darkest leading-tight"
           >
             {previous.frontmatter.title}
           </Link>
@@ -46,7 +46,7 @@ export default ({ pageContext: { previous, next } }) => (
           <Link
             to={next.fields.slug}
             rel="next"
-            className="font-semibold text-2xl text-grey-darkest"
+            className="font-semibold text-2xl text-grey-darkest leading-tight"
           >
             {next.frontmatter.title}
           </Link>
