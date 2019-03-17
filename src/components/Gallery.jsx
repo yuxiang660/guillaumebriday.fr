@@ -94,7 +94,6 @@ class Gallery extends Component {
           imageCountSeparator=" sur "
           leftArrowTitle="Précédente"
           rightArrowTitle="Suivante"
-          showCloseButton={false}
           width="auto"
         />
       </>
