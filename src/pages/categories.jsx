@@ -19,7 +19,7 @@ export default ({
   <>
     <Helmet title={`Catégories | ${site.siteMetadata.title}`} />
     <div className="container py-16 px-3 mx-auto max-w-lg">
-      <h1 className="text-4xl">Catégories</h1>
+      <h1 className="text-4xl dark-mode:text-white">Catégories</h1>
 
       <ul className="list-reset pt-4 pb-8 border-b overflow-x-scroll whitespace-no-wrap shadow-md md:shadow-none px-3 -mx-3">
         {group.map(category => (
@@ -38,7 +38,7 @@ export default ({
         {group.map(category => (
           <React.Fragment key={category.fieldValue}>
             <div id={slugify(category.fieldValue)} className="mt-12 mb-2">
-              <h2 className="inline bg-indigo-lightest text-indigo py-1 px-4 rounded-full text-xs font-semibold">
+              <h2 className="inline btn btn--lightest btn--sm">
                 {category.fieldValue}
               </h2>
             </div>
@@ -51,12 +51,15 @@ export default ({
                 itemType="http://schema.org/BlogPosting"
               >
                 <h2 className="font-semibold m-0 leading-tight">
-                  <Link to={post.fields.slug} className="text-grey-darkest">
+                  <Link
+                    to={post.fields.slug}
+                    className="text-black dark-mode:text-white"
+                  >
                     <span itemProp="name">{post.frontmatter.title}</span>
                   </Link>
                 </h2>
 
-                <div className="text-grey-darker text-sm">
+                <div className="text-grey-darker dark-mode:text-grey text-sm">
                   Le{' '}
                   <span
                     itemProp="datePublished"

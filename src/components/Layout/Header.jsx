@@ -14,7 +14,9 @@ export default ({ isBlog }) => {
   const activeClassName = isActive => {
     let classes =
       'header-link flex-no-shrink hover:no-underline hover:text-indigo relative mr-8 my-2 md:my-0 font-semibold'
-    let activeClasses = isActive ? 'active text-indigo' : 'text-grey-darkest'
+    let activeClasses = isActive
+      ? 'active text-indigo'
+      : 'text-grey-darkest dark-mode:text-white'
 
     return { className: [classes, activeClasses].join(' ') }
   }
@@ -29,10 +31,13 @@ export default ({ isBlog }) => {
       <nav className="container max-w-2xl text-grey">
         <div className="-my-2px py-4 flex flex-col md:flex-row flex-wrap justify-between items-baseline">
           <Link
-            className="mr-4 text-2xl text-grey-darker hover:no-underline flex-no-shrink font-normal"
+            className="mr-4 text-2xl text-grey-darker dark-mode:text-white hover:no-underline flex-no-shrink font-normal"
             to="/"
           >
-            Guillaume <span className="font-extrabold text-black">BRIDAY</span>
+            Guillaume{' '}
+            <span className="font-extrabold text-black dark-mode:text-white">
+              BRIDAY
+            </span>
           </Link>
 
           <div className="flex flex-col md:flex-row items-baseline w-full md:w-auto">

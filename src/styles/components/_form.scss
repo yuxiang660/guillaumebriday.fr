@@ -27,6 +27,10 @@
 
   &__input {
     @apply appearance-none outline-none py-1 px-2 text-grey-darker w-full;
+
+    @screen dark-mode {
+      @apply text-white bg-black;
+    }
   }
 
   &__suggestions-list {
@@ -36,6 +40,10 @@
   &__suggestion {
     a {
       @apply block px-4 py-3 bg-white;
+
+      @screen dark-mode {
+        @apply bg-black;
+      }
     }
 
     &:not(:last-child) {

@@ -8,7 +8,7 @@ export default ({ post, allCommentsYaml }) => {
 
   return (
     <>
-      <h2 id="comments" className="text-3xl">
+      <h2 id="comments" className="text-3xl dark-mode:text-white">
         <FontAwesomeIcon icon="comments" className="mr-4" />
         {comments.length} commentaire{comments.length > 1 ? 's' : ''}
       </h2>
@@ -28,19 +28,19 @@ export default ({ post, allCommentsYaml }) => {
               itemScope
               itemType="http://schema.org/Person"
             >
-              <span className="font-bold" itemProp="name">
+              <span className="font-bold dark-mode:text-white" itemProp="name">
                 {comment.author}
               </span>
             </div>
 
-            <span className="text-grey-darker">
+            <span className="text-grey-darker dark-mode:text-grey">
               <time itemProp="dateCreated" dateTime={comment.datePublished}>
                 Le {comment.date}
               </time>
             </span>
           </div>
 
-          <div className="mt-4 break-words" itemProp="text">
+          <div className="mt-4 break-words dark-mode:text-grey" itemProp="text">
             <ReactMarkdown source={comment.content} />
           </div>
         </div>

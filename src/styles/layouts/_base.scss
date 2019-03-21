@@ -19,6 +19,10 @@ strong {
 a {
   @apply no-underline text-indigo;
 
+  @screen dark-mode {
+    @apply text-white;
+  }
+
   &:hover {
     @apply underline;
   }

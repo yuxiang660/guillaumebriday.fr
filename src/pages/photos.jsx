@@ -8,7 +8,7 @@ export default ({ data: { site, allFile } }) => (
     <Helmet title={`Photos | ${site.siteMetadata.title}`} />
 
     <div className="container pt-16 px-3 mx-auto max-w-lg">
-      <h1 className="text-4xl">Photos</h1>
+      <h1 className="text-4xl dark-mode:text-white">Photos</h1>
 
       <p className="font-light text-grey-darker text-sm mb-12">
         Faire de la photo fait partie de mes activités favorites. Tu trouveras

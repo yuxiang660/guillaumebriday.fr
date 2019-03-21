@@ -119,7 +119,7 @@ export default class CommentForm extends Component {
             <input type="hidden" name="form-name" value="comment" />
             <input type="hidden" name="slug" value={slug} required />
 
-            <p className="text-sm text-grey-darker">
+            <p className="text-sm text-grey-darker dark-mode:text-grey">
               Votre adresse de messagerie ne sera pas publiée.
               <br />
               Les champs obligatoires sont indiqués avec{' '}
@@ -127,7 +127,7 @@ export default class CommentForm extends Component {
             </p>
 
             <div className="my-4 inline-block w-full md:w-1/2 md:pr-2">
-              <label htmlFor="name">
+              <label htmlFor="name" className="dark-mode:text-white">
                 Nom <span className="text-red-light">*</span>
               </label>
               <input
@@ -143,7 +143,7 @@ export default class CommentForm extends Component {
             </div>
 
             <div className="my-4 inline-block w-full md:w-1/2 md:pl-2">
-              <label htmlFor="email">
+              <label htmlFor="email" className="dark-mode:text-white">
                 Email <span className="text-red-light">*</span>
               </label>
               <input
@@ -159,7 +159,7 @@ export default class CommentForm extends Component {
             </div>
 
             <div className="my-4">
-              <label htmlFor="content">
+              <label htmlFor="content" className="dark-mode:text-white">
                 Commentaire <span className="text-red-light">*</span>
               </label>
               <textarea
@@ -177,6 +177,7 @@ export default class CommentForm extends Component {
                 <a
                   href="https://www.markdownguide.org/cheat-sheet"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   markdown
                 </a>

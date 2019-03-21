@@ -11,8 +11,11 @@ export default ({ file }) => (
           alt="Photo de profil"
         />
 
-        <h1 className="mr-4 text-3xl text-grey-darker font-normal">
-          Guillaume <span className="font-extrabold text-black">BRIDAY</span>
+        <h1 className="mr-4 text-3xl text-grey-darker dark-mode:text-white font-normal">
+          Guillaume{' '}
+          <span className="font-extrabold text-black dark-mode:text-white">
+            BRIDAY
+          </span>
         </h1>
       </div>
     </div>

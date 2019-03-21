@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default ({ pageContext: { previous, next } }) => (
   <div className="my-6 py-6 flex flex-wrap border-t border-indigo">
-    <div className="w-full sm:w-1/2">
+    <div className="w-full sm:pr-4 sm:w-1/2">
       {previous && (
         <>
           <div className="mb-4">
@@ -21,7 +21,7 @@ export default ({ pageContext: { previous, next } }) => (
           <Link
             to={previous.fields.slug}
             rel="prev"
-            className="font-semibold text-2xl text-grey-darkest leading-tight"
+            className="font-semibold text-2xl text-grey-darkest dark-mode:text-white leading-tight"
           >
             {previous.frontmatter.title}
           </Link>
@@ -29,7 +29,7 @@ export default ({ pageContext: { previous, next } }) => (
       )}
     </div>
 
-    <div className="w-full mt-3 sm:w-1/2 sm:mt-0 text-right">
+    <div className="w-full sm:pl-4 mt-3 sm:w-1/2 sm:mt-0 text-right">
       {next && (
         <>
           <div className="mb-4">
@@ -46,7 +46,7 @@ export default ({ pageContext: { previous, next } }) => (
           <Link
             to={next.fields.slug}
             rel="next"
-            className="font-semibold text-2xl text-grey-darkest leading-tight"
+            className="font-semibold text-2xl text-grey-darkest dark-mode:text-white leading-tight"
           >
             {next.frontmatter.title}
           </Link>

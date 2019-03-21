@@ -6,6 +6,10 @@
     @apply bg-indigo-lightest text-indigo;
   }
 
+  @screen dark-mode {
+    @apply bg-indigo-darker text-indigo-lighter;
+  }
+
   &--sm {
     @apply py-1 px-4;
   }
