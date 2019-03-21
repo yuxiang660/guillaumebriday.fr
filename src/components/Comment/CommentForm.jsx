@@ -172,6 +172,16 @@ export default class CommentForm extends Component {
                 rows="8"
                 required
               />
+              <em className="text-sm text-grey-darker">
+                Les commentaires sont formatés en{' '}
+                <a
+                  href="https://www.markdownguide.org/cheat-sheet"
+                  target="_blank"
+                >
+                  markdown
+                </a>
+                .
+              </em>
             </div>
 
             <div className="flex justify-end">
