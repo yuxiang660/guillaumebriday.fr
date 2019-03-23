@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import CommentForm from './CommentForm'
-const ReactMarkdown = require('react-markdown')
+import ReactMarkdown from 'react-markdown'
 
 export default ({ post, allCommentsYaml }) => {
   const comments = allCommentsYaml ? allCommentsYaml.edges : []
