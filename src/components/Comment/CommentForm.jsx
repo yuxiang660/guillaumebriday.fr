@@ -75,12 +75,10 @@ export default class CommentForm extends Component {
 
   render() {
     const { slug, name, email, content } = this.state.form
-    let submitIcon
+    let submitIconProps = { icon: 'chevron-right' }
 
     if (this.state.isLoading) {
-      submitIcon = <FontAwesomeIcon className="ml-1" icon="spinner" spin />
-    } else {
-      submitIcon = <FontAwesomeIcon className="ml-1" icon="chevron-right" />
+      submitIconProps = { icon: 'spinner', spin: true }
     }
 
     return (
@@ -190,7 +188,8 @@ export default class CommentForm extends Component {
                 disabled={this.isDisabled()}
                 className="btn btn--link py-3 px-4"
               >
-                Envoyer {submitIcon}
+                Envoyer{' '}
+                <FontAwesomeIcon className="ml-1" {...submitIconProps} />
               </button>
             </div>
           </form>
