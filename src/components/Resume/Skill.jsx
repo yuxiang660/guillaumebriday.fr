@@ -34,8 +34,8 @@ export default () => (
         <div className="w-full md:w-1/2 sm:px-8">
           <h3 className="mb-4 border-b pb-4">Développement</h3>
           <ul className="list-reset leading-loose">
-            {technologies.map(technology => (
-              <li className="flex items-center">
+            {technologies.map((technology, i) => (
+              <li key={i} className="flex items-center">
                 <FontAwesomeIcon
                   fixedWidth
                   className="text-indigo mr-2"
@@ -50,8 +50,8 @@ export default () => (
         <div className="w-full md:w-1/2 sm:px-8 md:mt-0 mt-8">
           <h3 className="mb-4 border-b pb-4">Connaissances</h3>
           <ul className="list-reset leading-loose">
-            {skills.map(skill => (
-              <li className="flex items-center">
+            {skills.map((skill, i) => (
+              <li key={i} className="flex items-center">
                 <FontAwesomeIcon
                   fixedWidth
                   className="text-indigo mr-2"
