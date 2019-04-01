@@ -1,22 +1,20 @@
 .header-link,
 .footer-link {
   &:after {
-    @apply absolute w-0 h-px pin-l opacity-0;
+    @apply absolute w-full h-px pin-b pin-l bg-indigo;
     content: '';
-    transition: 350ms width;
+    transform: scaleX(0);
     bottom: -.2rem;
+    transform-origin: bottom right;
+    transition: transform 350ms cubic-bezier(0.86, 0, 0.07, 1);
   }
 
   &:hover, &.active {
     &:after {
-      @apply opacity-100;
-      width: calc(100% + .01rem);
+      transform: scaleX(1);
+      transform-origin: bottom left;
     }
   }
-}
-
-.header-link:after {
-  @apply bg-indigo;
 }
 
 .footer-link:after {
