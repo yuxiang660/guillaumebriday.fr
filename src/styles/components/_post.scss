@@ -11,20 +11,31 @@
   }
 
   a {
-    @apply text-black font-semibold;
-    background-image: linear-gradient(180deg, transparent 70%, config('colors.indigo-lightest') 0);
+    @apply relative text-black font-semibold;
+
+    &:after {
+      @apply absolute pin-b bg-indigo-lightest;
+      content: "";
+      z-index: -1;
+      top: 70%;
+      left: -0.1px;
+      right: -0.1px;
+      transition: top 175ms ease-in-out;
+    }
 
     &:hover {
-      background-image: linear-gradient(180deg, transparent 0%, config('colors.indigo-lightest') 0);
       @apply no-underline;
+
+      &:after {
+        top: 0;
+      }
     }
 
     @screen dark-mode {
       @apply text-white;
-      background-image: linear-gradient(180deg, transparent 70%, config('colors.indigo') 0);
 
-      &:hover {
-        background-image: linear-gradient(180deg, transparent 0%, config('colors.indigo') 0);
+      &:after {
+        @apply bg-indigo;
       }
     }
   }
