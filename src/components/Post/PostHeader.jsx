@@ -17,7 +17,7 @@ export default ({ post, allCommentsYaml }) => {
       </Link>
 
       <h1
-        className="mb-2 text-4xl text-black dark-mode:text-white leading-tight"
+        className="my-2 text-4xl text-black dark-mode:text-white leading-tight"
         itemProp="name"
       >
         {post.frontmatter.title}
