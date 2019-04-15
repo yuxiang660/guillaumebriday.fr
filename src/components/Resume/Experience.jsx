@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './experience.scss'
+
 export default () => (
   <section className="py-8 bg-grey-lighter">
     <div className="container max-w-2xl px-3">
