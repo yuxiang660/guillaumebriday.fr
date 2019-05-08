@@ -27,7 +27,7 @@
       @apply no-underline;
 
       &:after {
-        top: 0;
+        @apply pin-t;
       }
     }
 
