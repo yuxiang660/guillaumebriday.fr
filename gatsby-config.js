@@ -1,4 +1,3 @@
-const tailwindcss = require('tailwindcss')
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 })
@@ -196,17 +195,12 @@ module.exports = {
         respectDNT: true,
       },
     },
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        postCssPlugins: [tailwindcss('./tailwind.js'), require('autoprefixer')],
-      },
-    },
+    'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-plugin-purgecss',
       options: {
         tailwind: true,
-        ignore: ['src/styles/index.scss'],
+        ignore: ['src/styles/index.css'],
       },
     },
     {

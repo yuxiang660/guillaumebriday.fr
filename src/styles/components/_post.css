@@ -45,7 +45,7 @@
   }
 }
 
-.gatsby-resp-image-wrapper + em {
+.gatsby-resp-image-figcaption {
   @apply block mt-2 italic text-grey-darker text-center;
 }
 
