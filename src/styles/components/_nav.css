@@ -1,7 +1,7 @@
 .header-link,
 .footer-link {
   &:after {
-    @apply absolute w-full h-px pin-b pin-l bg-indigo;
+    @apply absolute w-full h-px pin-l bg-indigo;
     content: '';
     transform: scaleX(0);
     bottom: -.2rem;
@@ -9,7 +9,7 @@
     transition: transform 350ms cubic-bezier(0.86, 0, 0.07, 1);
   }
 
-  &:hover, &.active {
+  &:matches(:hover, .active) {
     &:after {
       transform: scaleX(1);
       transform-origin: bottom left;

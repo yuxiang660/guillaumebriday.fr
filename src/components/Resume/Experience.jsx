@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './experience.scss'
+import './experience.css'
 
 export default () => (
   <section className="py-8 bg-grey-lighter">
