@@ -43,6 +43,7 @@
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.1.2",
     "postcss-preset-env": "^6.6.0",
+    "postcss-selector-matches": "^4.0.0",
     "postcss-short": "^5.0.0",
     "prismjs": "^1.16.0",
     "prop-types": "^15.6.2",
