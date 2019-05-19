@@ -18,8 +18,8 @@ export default ({
 }) => (
   <>
     <Helmet title={`Catégories | ${site.siteMetadata.title}`} />
-    <div className="container py-16 px-3 mx-auto max-w-lg">
-      <h1 className="text-4xl dark-mode:text-white">Catégories</h1>
+    <div className="container py-16 px-3 mx-auto max-w-3xl">
+      <h1 className="dark-mode:text-white">Catégories</h1>
 
       <ul className="list-reset pt-4 pb-8 border-b overflow-x-scroll whitespace-no-wrap shadow-md md:shadow-none px-3 -mx-3">
         {group.map(category => (
@@ -59,7 +59,7 @@ export default ({
                   </Link>
                 </h2>
 
-                <div className="text-grey-darker dark-mode:text-grey text-sm">
+                <div className="text-gray-700 dark-mode:text-gray text-sm">
                   Le{' '}
                   <span
                     itemProp="datePublished"

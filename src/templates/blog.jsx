@@ -14,10 +14,10 @@ export default ({
   <>
     <Helmet title={`Articles | ${site.siteMetadata.title}`} />
 
-    <div className="container px-3 py-16 mx-auto max-w-lg">
-      <h1 className="text-4xl dark-mode:text-white">Articles</h1>
+    <div className="container px-3 py-16 mx-auto max-w-3xl">
+      <h1 className="dark-mode:text-white">Articles</h1>
 
-      <p className="font-light text-grey-darker dark-mode:text-grey text-sm mb-12">
+      <p className="font-light text-gray-700 dark-mode:text-gray-500 text-sm mb-12">
         Tu trouveras ici tous les articles que j'ai publié, bonne lecture !
       </p>
 

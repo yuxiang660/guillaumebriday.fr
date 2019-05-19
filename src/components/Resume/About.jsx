@@ -2,7 +2,7 @@ import React from 'react'
 import Img from 'gatsby-image'
 
 export default ({ file }) => (
-  <section className="container pt-16 pb-8 px-3 mx-auto max-w-lg">
+  <section className="container pt-16 pb-8 px-3 mx-auto max-w-3xl">
     <div className="flex justify-center">
       <div className="flex flex-col">
         <Img
@@ -11,7 +11,7 @@ export default ({ file }) => (
           alt="Photo de profil"
         />
 
-        <h1 className="mr-4 text-3xl text-grey-darker dark-mode:text-white font-normal">
+        <h1 className="mr-4 text-3xl text-gray-700 dark-mode:text-white font-normal">
           Guillaume{' '}
           <span className="font-extrabold text-black dark-mode:text-white">
             BRIDAY
@@ -20,7 +20,7 @@ export default ({ file }) => (
       </div>
     </div>
 
-    <div className="post-content text-grey-darker">
+    <div className="post-content text-gray-700">
       <p>
         Je suis développeur Web pour faire de{' '}
         <strong>ma passion mon travail</strong>. J'ai pu acquérir de

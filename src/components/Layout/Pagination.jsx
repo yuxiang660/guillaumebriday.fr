@@ -42,7 +42,7 @@ export default function({ pageContext: { currentPage, numPages } }) {
     >
       <FontAwesomeIcon
         icon="arrow-left"
-        className="text-grey-darker hover:text-indigo"
+        className="text-gray-700 hover:text-indigo-500"
       />
     </Link>
   )
@@ -50,7 +50,7 @@ export default function({ pageContext: { currentPage, numPages } }) {
   if (isFirst) {
     prevTag = (
       <span className="mx-4">
-        <FontAwesomeIcon icon="arrow-left" className="text-grey-darker" />
+        <FontAwesomeIcon icon="arrow-left" className="text-gray-700" />
       </span>
     )
   }
@@ -64,7 +64,7 @@ export default function({ pageContext: { currentPage, numPages } }) {
     >
       <FontAwesomeIcon
         icon="arrow-right"
-        className="text-grey-darker hover:text-indigo"
+        className="text-gray-700 hover:text-indigo-500"
       />
     </Link>
   )
@@ -72,7 +72,7 @@ export default function({ pageContext: { currentPage, numPages } }) {
   if (isLast) {
     nextTag = (
       <span className="mx-4">
-        <FontAwesomeIcon icon="arrow-right" className="text-grey-darker" />
+        <FontAwesomeIcon icon="arrow-right" className="text-gray-700" />
       </span>
     )
   }
@@ -89,8 +89,8 @@ export default function({ pageContext: { currentPage, numPages } }) {
 
             let activeClasses =
               page.iteration === currentPage
-                ? 'bg-indigo-lightest text-indigo font-semibold'
-                : 'text-grey-darker hover:bg-indigo-lightest hover:no-underline'
+                ? 'bg-indigo-100 text-indigo-500 font-semibold'
+                : 'text-gray-700 hover:bg-indigo-100 hover:no-underline'
 
             return { className: [classes, activeClasses].join(' ') }
           }

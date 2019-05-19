@@ -8,7 +8,7 @@ export default ({ data: { site } }) => (
       title={`Oups ! La page est introuvable… | ${site.siteMetadata.title}`}
     />
 
-    <div className="container px-3 py-16 mx-auto max-w-lg">
+    <div className="container px-3 py-16 mx-auto max-w-3xl">
       <h1>Oups ! La page est introuvable…</h1>
       <p>La page que vous cherchez n'est plus disponible ou a été déplacée !</p>
 

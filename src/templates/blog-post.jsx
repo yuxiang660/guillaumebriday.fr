@@ -13,7 +13,7 @@ export default ({
     <Helmet title={`${post.frontmatter.title} | ${site.siteMetadata.title}`} />
 
     <article itemScope="" itemType="http://schema.org/BlogPosting">
-      <div className="container pt-16 px-3 max-w-lg">
+      <div className="container pt-16 px-3 max-w-3xl">
         <PostHeader post={post} allCommentsYaml={allCommentsYaml} />
 
         <div
@@ -23,12 +23,12 @@ export default ({
         />
       </div>
 
-      <div className="container px-3 max-w-2xl">
+      <div className="container px-3 max-w-6xl">
         <PostPagination pageContext={pageContext} />
       </div>
 
-      <div className="bg-grey-lighter dark-mode:bg-grey-darkest">
-        <div className="container px-3 max-w-lg py-16">
+      <div className="bg-gray-200 dark-mode:bg-gray-900">
+        <div className="container px-3 max-w-3xl py-16">
           <CommentList allCommentsYaml={allCommentsYaml} post={post} />
         </div>
       </div>

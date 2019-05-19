@@ -1,12 +1,12 @@
 .timeline-container:before {
-  @apply absolute pin-t h-full w-1 bg-grey;
+  @apply absolute top-0 h-full w-1 bg-gray-500;
   content: '';
   left: 0.5rem;
   transform: translateX(-50%);
 }
 
 .timeline-dot {
-  @apply absolute z-10 w-5 h-5 rounded-full border-4 border-grey bg-grey-lighter shadow;
+  @apply absolute z-10 w-5 h-5 rounded-full border-4 border-gray-500 bg-gray-200 shadow;
   top: 20px;
   left: -1.5rem;
   transform: translateX(-50%);

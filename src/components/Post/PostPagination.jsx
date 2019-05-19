@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default ({ pageContext: { previous, next } }) => (
-  <div className="my-6 py-6 flex flex-wrap border-t border-indigo">
+  <div className="my-6 py-6 flex flex-wrap border-t border-indigo-500">
     <div className="w-full sm:pr-4 sm:w-1/2">
       {previous && (
         <>
@@ -21,7 +21,7 @@ export default ({ pageContext: { previous, next } }) => (
           <Link
             to={previous.fields.slug}
             rel="prev"
-            className="font-semibold text-2xl text-grey-darkest dark-mode:text-white leading-tight"
+            className="font-semibold text-2xl text-gray-900 dark-mode:text-white leading-tight"
           >
             {previous.frontmatter.title}
           </Link>
@@ -46,7 +46,7 @@ export default ({ pageContext: { previous, next } }) => (
           <Link
             to={next.fields.slug}
             rel="next"
-            className="font-semibold text-2xl text-grey-darkest dark-mode:text-white leading-tight"
+            className="font-semibold text-2xl text-gray-900 dark-mode:text-white leading-tight"
           >
             {next.frontmatter.title}
           </Link>

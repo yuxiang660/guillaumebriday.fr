@@ -15,8 +15,8 @@ export default () => {
   `)
 
   return (
-    <footer className="bg-grey-footer text-white px-3 py-6">
-      <div className="container max-w-xl ">
+    <footer className="bg-gray-footer text-white px-3 py-6">
+      <div className="container max-w-5xl ">
         <p className="m-0 text-2xl font-bold">{site.siteMetadata.title}</p>
 
         <div className="flex flex-col md:flex-row justify-between py-4">
@@ -24,10 +24,10 @@ export default () => {
             {site.siteMetadata.description}
           </p>
 
-          <div className="flex-no-shrink flex flex-wrap md:w-1/3 mt-4 md:mt-0">
+          <div className="flex-shrink-0 flex flex-wrap md:w-1/3 mt-4 md:mt-0">
             <span className="w-1/3 mb-2">
               <Link
-                className="footer-link relative text-grey hover:text-grey-lightest hover:no-underline"
+                className="footer-link relative text-gray-500 hover:text-gray-100 hover:no-underline"
                 to="/"
               >
                 Home
@@ -36,7 +36,7 @@ export default () => {
 
             <span className="w-1/3 mb-2">
               <Link
-                className="footer-link relative text-grey hover:text-grey-lightest hover:no-underline w-1/3"
+                className="footer-link relative text-gray-500 hover:text-gray-100 hover:no-underline w-1/3"
                 to="/a-propos"
               >
                 À propos
@@ -45,7 +45,7 @@ export default () => {
 
             <span className="w-1/3 mb-2">
               <Link
-                className="footer-link relative text-grey hover:text-grey-lightest hover:no-underline w-1/3"
+                className="footer-link relative text-gray-500 hover:text-gray-100 hover:no-underline w-1/3"
                 to="/articles"
               >
                 Articles
@@ -54,7 +54,7 @@ export default () => {
 
             <span className="w-1/3 mb-2">
               <Link
-                className="footer-link relative text-grey hover:text-grey-lightest hover:no-underline w-1/3"
+                className="footer-link relative text-gray-500 hover:text-gray-100 hover:no-underline w-1/3"
                 to="/categories"
               >
                 Catégories
@@ -63,7 +63,7 @@ export default () => {
 
             <span className="w-1/3 mb-2">
               <Link
-                className="footer-link relative text-grey hover:text-grey-lightest hover:no-underline w-1/3"
+                className="footer-link relative text-gray-500 hover:text-gray-100 hover:no-underline w-1/3"
                 to="/photos"
               >
                 Photos
@@ -72,7 +72,7 @@ export default () => {
 
             <span className="w-1/3 mb-2">
               <Link
-                className="footer-link relative text-grey hover:text-grey-lightest hover:no-underline w-1/3"
+                className="footer-link relative text-gray-500 hover:text-gray-100 hover:no-underline w-1/3"
                 to="/mon-profil"
               >
                 Mon profil
@@ -82,10 +82,10 @@ export default () => {
         </div>
 
         <div className="flex justify-end items-baseline border-t pt-4">
-          <ul className="list-reset flex justify-between w-2/3 sm:w-1/2 md:w-1/3">
+          <ul className="flex justify-between w-2/3 sm:w-1/2 md:w-1/3">
             <li>
               <a
-                className="text-grey hover:text-grey-lightest"
+                className="text-gray-500 hover:text-gray-100"
                 href="/feed.xml"
                 title="RSS"
               >
@@ -95,7 +95,7 @@ export default () => {
 
             <li>
               <a
-                className="text-grey hover:text-grey-lightest"
+                className="text-gray-500 hover:text-gray-100"
                 href="https://github.com/guillaumebriday"
                 title="GitHub"
               >
@@ -105,7 +105,7 @@ export default () => {
 
             <li>
               <a
-                className="text-grey hover:text-grey-lightest"
+                className="text-gray-500 hover:text-gray-100"
                 href="https://twitter.com/guillaumebriday"
                 title="Twitter"
               >
@@ -115,7 +115,7 @@ export default () => {
 
             <li>
               <a
-                className="text-grey hover:text-grey-lightest"
+                className="text-gray-500 hover:text-gray-100"
                 href="https://instagram.com/guillaumebriday"
                 title="Instagram"
               >
@@ -125,7 +125,7 @@ export default () => {
 
             <li>
               <a
-                className="text-grey hover:text-grey-lightest"
+                className="text-gray-500 hover:text-gray-100"
                 href="https://www.linkedin.com/in/guillaumebriday"
                 title="Linkedin"
               >
@@ -135,7 +135,7 @@ export default () => {
 
             <li>
               <a
-                className="text-grey hover:text-grey-lightest"
+                className="text-gray-500 hover:text-gray-100"
                 href="https://www.amazon.fr/?tag=guillaumebrid-21"
                 title="Lien affilié Amazon"
               >
@@ -145,7 +145,7 @@ export default () => {
 
             <li>
               <a
-                className="text-grey hover:text-grey-lightest"
+                className="text-gray-500 hover:text-gray-100"
                 href="https://www.paypal.me/guillaumebriday"
                 title="M'offrir un café"
               >

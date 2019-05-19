@@ -17,13 +17,13 @@ export default ({ post, allCommentsYaml }) => {
       </Link>
 
       <h1
-        className="my-2 text-4xl text-black dark-mode:text-white leading-tight"
+        className="my-2 text-black dark-mode:text-white leading-tight"
         itemProp="name"
       >
         {post.frontmatter.title}
       </h1>
 
-      <ul className="list-reset mb-4 text-sm text-indigo">
+      <ul className="mb-4 text-sm text-indigo-500">
         <li className="block sm:inline-block mr-3">
           <time
             dateTime={post.fields.datePublished}
@@ -32,26 +32,22 @@ export default ({ post, allCommentsYaml }) => {
           >
             <FontAwesomeIcon
               icon={['far', 'calendar-alt']}
-              className="mr-1 text-indigo-lighter"
+              className="mr-1 text-indigo-200"
             />{' '}
             Le {post.fields.date}
           </time>
         </li>
 
-        <li className="block sm:inline-block mr-3 md:border-l border-indigo md:pl-3">
-          <FontAwesomeIcon icon="user" className="mr-1 text-indigo-lighter" />{' '}
-          Par
+        <li className="block sm:inline-block mr-3 md:border-l border-indigo-500 md:pl-3">
+          <FontAwesomeIcon icon="user" className="mr-1 text-indigo-200" /> Par
           <span itemProp="author" itemScope itemType="http://schema.org/Person">
             <span itemProp="name"> Guillaume Briday</span>
           </span>
         </li>
 
-        <li className="block sm:inline-block md:border-l border-indigo md:pl-3">
+        <li className="block sm:inline-block md:border-l border-indigo-500 md:pl-3">
           <a href="#comments">
-            <FontAwesomeIcon
-              icon="comments"
-              className="mr-1 text-indigo-lighter"
-            />{' '}
+            <FontAwesomeIcon icon="comments" className="mr-1 text-indigo-200" />{' '}
             {comments.length} commentaire
             {comments.length > 1 ? 's' : ''}
           </a>
@@ -60,7 +56,7 @@ export default ({ post, allCommentsYaml }) => {
         <li className="block sm:inline-block mr-3 md:pl-3">
           <FontAwesomeIcon
             icon={['far', 'clock']}
-            className="mr-1 text-indigo-lighter"
+            className="mr-1 text-indigo-200"
           />{' '}
           {formatReadingTime(post.timeToRead)}
         </li>

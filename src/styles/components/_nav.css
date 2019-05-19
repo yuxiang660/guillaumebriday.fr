@@ -1,7 +1,7 @@
 .header-link,
 .footer-link {
   &:after {
-    @apply absolute w-full h-px pin-l bg-indigo;
+    @apply absolute w-full h-px left-0 bg-indigo-500;
     content: '';
     transform: scaleX(0);
     bottom: -.2rem;

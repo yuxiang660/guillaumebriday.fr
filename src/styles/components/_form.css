@@ -1,8 +1,8 @@
 .text-input {
-  @apply shadow appearance-none outline-none border rounded w-full p-4 text-grey-darker;
+  @apply shadow appearance-none outline-none border rounded w-full p-4 text-gray-700 leading-tight;
 
   &[type=email]:not([value=""]):invalid {
-    @apply border-red-light;
+    @apply border-red-400;
   }
 }
 
@@ -19,22 +19,18 @@
     @apply relative;
 
     &--open .react-autosuggest__suggestions-container {
-      @apply block rounded-lg border bg-white absolute overflow-hidden shadow-md pin-x w-full;
+      @apply block rounded-lg border bg-white absolute overflow-hidden shadow-md inset-x-0 w-full;
       top: 40px;
       z-index: 2;
     }
   }
 
   &__input {
-    @apply appearance-none outline-none py-1 px-2 text-grey-darker w-full;
+    @apply appearance-none outline-none py-1 px-2 text-gray-700 w-full;
 
     @screen dark-mode {
       @apply text-white bg-black;
     }
-  }
-
-  &__suggestions-list {
-    @apply list-reset;
   }
 
   &__suggestion {

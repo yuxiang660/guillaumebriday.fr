@@ -4,7 +4,7 @@ import Img from 'gatsby-image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default ({ data: { file } }) => (
-  <div className="container py-16 mx-auto max-w-lg px-3">
+  <div className="container py-16 mx-auto max-w-3xl px-3">
     <div className="flex justify-center">
       <div className="flex flex-col">
         <Img
@@ -13,7 +13,7 @@ export default ({ data: { file } }) => (
           alt="Photo de profil"
         />
 
-        <h1 className="mr-4 text-3xl text-grey-darker dark-mode:text-white font-normal mt-4">
+        <h1 className="mr-4 text-3xl text-gray-700 dark-mode:text-white font-normal mt-4">
           Guillaume{' '}
           <span className="font-extrabold text-black dark-mode:text-white">
             BRIDAY
@@ -22,7 +22,7 @@ export default ({ data: { file } }) => (
       </div>
     </div>
 
-    <div className="post-content text-grey-darker">
+    <div className="post-content text-gray-700">
       <p>
         Je suis développeur Web avec l'envie de partager ce que j'aime sur ce
         blog. Tu y trouveras tous <Link to="/articles">les articles</Link> que
@@ -52,7 +52,7 @@ export default ({ data: { file } }) => (
             <a href="https://github.com/guillaumebriday">
               <FontAwesomeIcon
                 icon={['fab', 'github']}
-                className="text-indigo mr-1"
+                className="text-indigo-500 mr-1"
               />{' '}
               GitHub
             </a>
@@ -62,7 +62,7 @@ export default ({ data: { file } }) => (
             <a href="https://twitter.com/guillaumebriday">
               <FontAwesomeIcon
                 icon={['fab', 'twitter']}
-                className="text-indigo mr-1"
+                className="text-indigo-500 mr-1"
               />{' '}
               Twitter
             </a>
@@ -72,7 +72,7 @@ export default ({ data: { file } }) => (
             <a href="https://instagram.com/guillaumebriday">
               <FontAwesomeIcon
                 icon={['fab', 'instagram']}
-                className="text-indigo mr-1"
+                className="text-indigo-500 mr-1"
               />{' '}
               Instagram
             </a>
@@ -82,7 +82,7 @@ export default ({ data: { file } }) => (
             <a href="https://www.linkedin.com/in/guillaumebriday">
               <FontAwesomeIcon
                 icon={['fab', 'linkedin']}
-                className="text-indigo mr-1"
+                className="text-indigo-500 mr-1"
               />{' '}
               Linkedin
             </a>
