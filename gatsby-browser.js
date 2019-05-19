@@ -30,7 +30,6 @@ import {
   faPaypal,
 } from '@fortawesome/free-brands-svg-icons'
 
-import './src/styles/tailwind.css'
 import './src/styles/index.css'
 import SmoothScroll from 'smooth-scroll'
 import 'typeface-roboto'
