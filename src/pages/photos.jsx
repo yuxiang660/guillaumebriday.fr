@@ -50,7 +50,6 @@ export const pageQuery = graphql`
     allFile(
       filter: { absolutePath: { regex: "/gallery/" } }
       sort: { fields: [absolutePath], order: DESC }
-      limit: 1
     ) {
       edges {
         node {
