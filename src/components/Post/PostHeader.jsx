@@ -38,14 +38,14 @@ export default ({ post, allCommentsYaml }) => {
           </time>
         </li>
 
-        <li className="block sm:inline-block mr-3 md:border-l border-indigo-500 md:pl-3">
+        <li className="block sm:inline-block sm:border-l sm:pl-3 mr-3 border-indigo-500">
           <FontAwesomeIcon icon="user" className="mr-1 text-indigo-200" /> Par
           <span itemProp="author" itemScope itemType="http://schema.org/Person">
             <span itemProp="name"> Guillaume Briday</span>
           </span>
         </li>
 
-        <li className="block sm:inline-block md:border-l border-indigo-500 md:pl-3">
+        <li className="block sm:inline-block sm:border-l sm:pl-3 mr-3 border-indigo-500">
           <a href="#comments">
             <FontAwesomeIcon icon="comments" className="mr-1 text-indigo-200" />{' '}
             {comments.length} commentaire
@@ -53,7 +53,7 @@ export default ({ post, allCommentsYaml }) => {
           </a>
         </li>
 
-        <li className="block sm:inline-block mr-3 md:pl-3">
+        <li className="block sm:inline-block">
           <FontAwesomeIcon
             icon={['far', 'clock']}
             className="mr-1 text-indigo-200"
