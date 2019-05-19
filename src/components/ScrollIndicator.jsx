@@ -23,9 +23,9 @@ export default class ScrollIndicator extends Component {
 
   render() {
     return (
-      <div className="fixed w-full z-50 pin-t pin-l">
+      <div className="fixed w-full z-50 top-0 left-0">
         <div
-          className="bg-indigo h-1"
+          className="bg-indigo-500 h-1"
           style={{ width: this.state.scrolled + '%' }}
         />
       </div>

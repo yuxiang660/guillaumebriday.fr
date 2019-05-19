@@ -10,14 +10,27 @@
 
 body {
   @apply font-light;
+  line-height: 1.15;
 }
 
 strong {
   @apply font-semibold;
 }
 
+h1 {
+  @apply font-bold text-4xl;
+}
+
+h2 {
+  @apply font-bold text-2xl;
+}
+
+h3 {
+  @apply font-semibold text-lg;
+}
+
 a {
-  @apply no-underline text-indigo;
+  @apply no-underline text-indigo-500;
 
   @screen dark-mode {
     @apply text-white;

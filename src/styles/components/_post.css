@@ -14,7 +14,7 @@
     @apply relative text-black font-semibold;
 
     &:after {
-      @apply bg-indigo-lightest;
+      @apply bg-indigo-100;
       content: "";
       z-index: -1;
       position: absolute 70% -0.1px 0 -0.1px;
@@ -25,7 +25,7 @@
       @apply no-underline;
 
       &:after {
-        @apply pin-t;
+        @apply top-0;
       }
     }
 
@@ -33,7 +33,7 @@
       @apply text-white;
 
       &:after {
-        @apply bg-indigo;
+        @apply bg-indigo-500;
       }
     }
   }
@@ -44,7 +44,7 @@
 }
 
 .gatsby-resp-image-figcaption {
-  @apply block mt-2 italic text-grey-darker text-center;
+  @apply block mt-2 italic text-gray-700 text-center;
 }
 
 table {
@@ -65,7 +65,7 @@ table {
 
   tbody {
     tr:nth-of-type(odd) {
-      @apply bg-grey-lighter;
+      @apply bg-gray-200;
     }
   }
 }
@@ -75,7 +75,7 @@ kbd {
 }
 
 p > code {
-  @apply p-2px text-orange bg-orange-lightest rounded;
+  @apply p-2px text-orange-500 bg-orange-100 rounded;
 }
 
 pre {
@@ -96,7 +96,7 @@ pre {
     object-fit: cover;
   }
 
-  @media screen and (min-width: config('screens.md')) {
+  @media screen and (min-width: theme('screens.md')) {
     & article:first-child,
     & article:nth-child(4n) {
       grid-column: span 2;

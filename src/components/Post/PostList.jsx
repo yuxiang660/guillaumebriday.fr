@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 export default ({ posts }) => (
-  <ul className="list-reset">
+  <ul>
     {posts
       .filter(post => post.node.frontmatter.title.length > 0)
       .map(({ node: post }) => (
@@ -29,7 +29,7 @@ export default ({ posts }) => (
             </Link>
           </h2>
 
-          <div className="text-grey-darker dark-mode:text-grey text-sm">
+          <div className="text-gray-700 dark-mode:text-gray-500 text-sm">
             Le{' '}
             <span
               itemProp="datePublished"

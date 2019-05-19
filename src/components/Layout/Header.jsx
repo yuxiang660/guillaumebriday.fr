@@ -13,10 +13,10 @@ const searchClient = algoliasearch(
 export default ({ isBlog }) => {
   const activeClassName = isActive => {
     let classes =
-      'header-link flex-no-shrink hover:no-underline hover:text-indigo relative mr-8 my-2 md:my-0 font-semibold'
+      'header-link flex-shrink-0 hover:no-underline hover:text-indigo-500 relative mr-8 my-2 md:my-0 font-semibold'
     let activeClasses = isActive
-      ? 'active text-indigo'
-      : 'text-grey-darkest dark-mode:text-white'
+      ? 'active text-indigo-500'
+      : 'text-gray-900 dark-mode:text-white'
 
     return { className: [classes, activeClasses].join(' ') }
   }
@@ -28,10 +28,10 @@ export default ({ isBlog }) => {
 
   return (
     <header className="px-3 shadow">
-      <nav className="container max-w-2xl text-grey">
+      <nav className="container max-w-6xl text-gray">
         <div className="-my-2px py-4 flex flex-col md:flex-row flex-wrap justify-between items-baseline">
           <Link
-            className="mr-4 text-2xl text-grey-darker dark-mode:text-white hover:no-underline flex-no-shrink font-normal"
+            className="mr-4 text-2xl text-gray-700 dark-mode:text-white hover:no-underline flex-shrink-0 font-normal"
             to="/"
           >
             Guillaume{' '}
@@ -53,7 +53,7 @@ export default ({ isBlog }) => {
               Mon profil
             </Link>
 
-            <div className="flex items-baseline inline border border-indigo rounded-full mt-2 md:mt-0 py-1 px-2 pr-4 leading-tight w-full">
+            <div className="flex items-baseline inline border border-indigo-500 rounded-full mt-2 md:mt-0 py-1 px-2 pr-4 leading-tight w-full">
               <InstantSearch indexName="blog" searchClient={searchClient}>
                 <Index indexName="blog">
                   <Configure hitsPerPage={5} />
@@ -61,7 +61,7 @@ export default ({ isBlog }) => {
                 </Index>
               </InstantSearch>
 
-              <FontAwesomeIcon icon="search" className="text-indigo" />
+              <FontAwesomeIcon icon="search" className="text-indigo-500" />
             </div>
           </div>
         </div>

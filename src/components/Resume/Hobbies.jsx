@@ -2,15 +2,15 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default () => (
-  <section className="pt-8 pb-16 bg-grey-lighter">
-    <div className="container max-w-lg px-3">
-      <h2 className="uppercase text-center text-4xl font-bold mb-8">
+  <section className="pt-8 pb-16 bg-gray-200">
+    <div className="container max-w-3xl px-3">
+      <h2 className="uppercase text-center text-4xl mb-8">
         Mes centres d'intérêts
       </h2>
 
-      <div className="flex flex-wrap justify-around text-indigo">
+      <div className="flex flex-wrap justify-around text-indigo-500">
         <div className="w-1/2 md:w-1/3 text-center mb-6">
-          <div className="bg-indigo-lightest mb-4 inline-block p-8 rounded-full">
+          <div className="bg-indigo-100 mb-4 inline-block p-8 rounded-full">
             <FontAwesomeIcon
               fixedWidth
               className="hobby-icon fa-3x"
@@ -22,7 +22,7 @@ export default () => (
         </div>
 
         <div className="w-1/2 md:w-1/3 text-center mb-6">
-          <div className="bg-indigo-lightest mb-4 inline-block p-8 rounded-full">
+          <div className="bg-indigo-100 mb-4 inline-block p-8 rounded-full">
             <FontAwesomeIcon
               className="hobby-icon fa-3x"
               icon={['fas', 'camera-retro']}
@@ -33,7 +33,7 @@ export default () => (
         </div>
 
         <div className="w-1/2 md:w-1/3 text-center mb-6">
-          <div className="bg-indigo-lightest mb-4 inline-block p-8 rounded-full">
+          <div className="bg-indigo-100 mb-4 inline-block p-8 rounded-full">
             <FontAwesomeIcon
               fixedWidth
               className="hobby-icon fa-3x"
@@ -45,7 +45,7 @@ export default () => (
         </div>
 
         <div className="w-1/2 md:w-1/3 text-center mb-6">
-          <div className="bg-indigo-lightest mb-4 inline-block p-8 rounded-full">
+          <div className="bg-indigo-100 mb-4 inline-block p-8 rounded-full">
             <FontAwesomeIcon
               fixedWidth
               className="hobby-icon fa-3x"
@@ -57,7 +57,7 @@ export default () => (
         </div>
 
         <div className="w-1/2 md:w-1/3 text-center mb-6">
-          <div className="bg-indigo-lightest mb-4 inline-block p-8 rounded-full">
+          <div className="bg-indigo-100 mb-4 inline-block p-8 rounded-full">
             <FontAwesomeIcon
               className="hobby-icon fa-3x"
               icon={['fas', 'globe-europe']}
@@ -68,7 +68,7 @@ export default () => (
         </div>
 
         <div className="w-1/2 md:w-1/3 text-center mb-6">
-          <div className="bg-indigo-lightest mb-4 inline-block p-8 rounded-full">
+          <div className="bg-indigo-100 mb-4 inline-block p-8 rounded-full">
             <FontAwesomeIcon
               fixedWidth
               className="hobby-icon fa-3x"

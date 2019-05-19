@@ -85,7 +85,7 @@ export default class CommentForm extends Component {
       <>
         {this.state.isError && (
           <div
-            className="bg-red-lightest border border-red-light text-red-dark px-4 py-3 rounded relative"
+            className="bg-red-100 border border-red-400 text-red-600 px-4 py-3 rounded relative"
             role="alert"
           >
             <strong className="font-bold">Whoops ! </strong>
@@ -97,7 +97,7 @@ export default class CommentForm extends Component {
 
         {this.state.isSuccess ? (
           <div
-            className="bg-green-lightest border border-green-light text-green-dark px-4 py-3 rounded relative"
+            className="bg-green-100 border border-green-400 text-green-600 px-4 py-3 rounded relative"
             role="alert"
           >
             <strong className="font-bold">Félicitation ! </strong>
@@ -117,7 +117,7 @@ export default class CommentForm extends Component {
             <input type="hidden" name="form-name" value="comment" />
             <input type="hidden" name="slug" value={slug} required />
 
-            <p className="text-sm text-grey-darker dark-mode:text-grey">
+            <p className="text-sm text-gray-700 dark-mode:text-gray-500">
               Votre adresse de messagerie ne sera pas publiée.
               <br />
               Les champs obligatoires sont indiqués avec{' '}
@@ -126,7 +126,7 @@ export default class CommentForm extends Component {
 
             <div className="my-4 inline-block w-full md:w-1/2 md:pr-2">
               <label htmlFor="name" className="dark-mode:text-white">
-                Nom <span className="text-red-light">*</span>
+                Nom <span className="text-red-400">*</span>
               </label>
               <input
                 value={name}
@@ -142,7 +142,7 @@ export default class CommentForm extends Component {
 
             <div className="my-4 inline-block w-full md:w-1/2 md:pl-2">
               <label htmlFor="email" className="dark-mode:text-white">
-                Email <span className="text-red-light">*</span>
+                Email <span className="text-red-400">*</span>
               </label>
               <input
                 value={email}
@@ -158,7 +158,7 @@ export default class CommentForm extends Component {
 
             <div className="my-4">
               <label htmlFor="content" className="dark-mode:text-white">
-                Commentaire <span className="text-red-light">*</span>
+                Commentaire <span className="text-red-400">*</span>
               </label>
               <textarea
                 value={content}
@@ -170,7 +170,7 @@ export default class CommentForm extends Component {
                 rows="8"
                 required
               />
-              <em className="text-sm text-grey-darker">
+              <em className="text-sm text-gray-700">
                 Les commentaires sont formatés en{' '}
                 <a
                   href="https://www.markdownguide.org/cheat-sheet"
@@ -186,7 +186,7 @@ export default class CommentForm extends Component {
             <div className="flex justify-end">
               <button
                 disabled={this.isDisabled()}
-                className="btn btn--link py-3 px-4"
+                className="btn btn--link leading-tight py-3 px-4"
               >
                 Envoyer{' '}
                 <FontAwesomeIcon className="ml-1" {...submitIconProps} />

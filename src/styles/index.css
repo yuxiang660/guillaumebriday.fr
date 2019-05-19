@@ -1,3 +1,7 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 @import "./vendors/_prism-onedark";
 
 @import "./layouts/_base";

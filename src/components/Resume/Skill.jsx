@@ -24,21 +24,19 @@ const skills = [
 ]
 
 export default () => (
-  <section className="py-8 bg-grey-lightest">
-    <div className="container max-w-2xl px-3">
-      <h2 className="uppercase text-center text-4xl font-bold mb-8">
-        Compétences
-      </h2>
+  <section className="py-8 bg-gray-100">
+    <div className="container max-w-6xl px-3">
+      <h2 className="uppercase text-center text-4xl mb-8">Compétences</h2>
 
       <div className="flex flex-wrap">
         <div className="w-full md:w-1/2 sm:px-8">
           <h3 className="mb-4 border-b pb-4">Développement</h3>
-          <ul className="list-reset leading-loose">
+          <ul className="leading-loose">
             {technologies.map((technology, i) => (
               <li key={i} className="flex items-center">
                 <FontAwesomeIcon
                   fixedWidth
-                  className="text-indigo mr-2"
+                  className="text-indigo-500 mr-2"
                   icon={['far', 'check-circle']}
                 />{' '}
                 {technology}
@@ -49,12 +47,12 @@ export default () => (
 
         <div className="w-full md:w-1/2 sm:px-8 md:mt-0 mt-8">
           <h3 className="mb-4 border-b pb-4">Connaissances</h3>
-          <ul className="list-reset leading-loose">
+          <ul className="leading-loose">
             {skills.map((skill, i) => (
               <li key={i} className="flex items-center">
                 <FontAwesomeIcon
                   fixedWidth
-                  className="text-indigo mr-2"
+                  className="text-indigo-500 mr-2"
                   icon={['far', 'check-circle']}
                 />{' '}
                 {skill}

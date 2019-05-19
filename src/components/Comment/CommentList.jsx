@@ -33,14 +33,17 @@ export default ({ post, allCommentsYaml }) => {
               </span>
             </div>
 
-            <span className="text-grey-darker dark-mode:text-grey">
+            <span className="text-gray-700 dark-mode:text-gray-500">
               <time itemProp="dateCreated" dateTime={comment.datePublished}>
                 Le {comment.date}
               </time>
             </span>
           </div>
 
-          <div className="mt-4 break-words dark-mode:text-grey" itemProp="text">
+          <div
+            className="mt-4 break-words dark-mode:text-gray-500"
+            itemProp="text"
+          >
             <ReactMarkdown source={comment.content} />
           </div>
         </div>

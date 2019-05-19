@@ -1,13 +1,13 @@
 .btn {
-  @apply bg-indigo-light text-white rounded-full text-xs font-semibold;
+  @apply bg-indigo-400 text-white rounded-full text-xs font-semibold;
   transition: all 350ms;
 
   &--lightest {
-    @apply bg-indigo-lightest text-indigo;
+    @apply bg-indigo-100 text-indigo-500;
   }
 
   @screen dark-mode {
-    @apply bg-indigo-darker text-indigo-lighter;
+    @apply bg-indigo-700 text-indigo-200;
   }
 
   &--sm {
@@ -19,6 +19,6 @@
   }
 
   &:disabled {
-    @apply bg-grey-light cursor-not-allowed;
+    @apply bg-gray-400 cursor-not-allowed;
   }
 }
