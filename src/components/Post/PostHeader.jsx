@@ -46,7 +46,7 @@ export default ({ post, allCommentsYaml }) => {
         </li>
 
         <li className="block sm:inline-block sm:border-l sm:pl-3 mr-3 border-indigo-500">
-          <a href="#comments">
+          <a href="#comments" className="text-indigo-500">
             <FontAwesomeIcon icon="comments" className="mr-1 text-indigo-200" />{' '}
             {comments.length} commentaire
             {comments.length > 1 ? 's' : ''}
