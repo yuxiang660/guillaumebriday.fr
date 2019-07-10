@@ -1,6 +1,10 @@
 .text-input {
   @apply shadow appearance-none outline-none border rounded w-full p-4 text-gray-700 leading-tight;
 
+  @screen dark-mode {
+    @apply text-gray-200 bg-gray-800 border-gray-900;
+  }
+
   &[type=email]:not([value=""]):invalid {
     @apply border-red-400;
   }

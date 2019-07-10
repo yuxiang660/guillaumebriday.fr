@@ -6,19 +6,27 @@
     @apply bg-indigo-100 text-indigo-500;
   }
 
-  @screen dark-mode {
-    @apply bg-indigo-700 text-indigo-200;
-  }
-
   &--sm {
     @apply py-1 px-4;
   }
 
   &--link:not(:disabled):hover {
-    @apply shadow-outline-indigo;
+    @apply shadow-outline-indigo bg-indigo-500;
   }
 
   &:disabled {
     @apply bg-gray-400 cursor-not-allowed;
+  }
+
+  @screen dark-mode {
+    @apply bg-indigo-800 text-indigo-300;
+
+    &--link:not(:disabled):hover {
+      @apply text-white;
+    }
+
+    &:disabled {
+      @apply bg-indigo-900 text-indigo-300;
+    }
   }
 }

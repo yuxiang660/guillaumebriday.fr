@@ -15,7 +15,7 @@ export default () => {
   `)
 
   return (
-    <footer className="bg-gray-footer text-white px-3 py-6">
+    <footer className="bg-gray-footer dark-mode:bg-black text-white px-3 py-6">
       <div className="container max-w-5xl ">
         <p className="m-0 text-2xl font-bold">{site.siteMetadata.title}</p>
 
