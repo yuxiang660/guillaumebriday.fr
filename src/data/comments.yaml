@@ -1,7 +1,7 @@
 ---
 
 - id: "1"
-  slug: un-mac-pour-le-prix-de-deux
+  slug: "un-mac-pour-le-prix-de-deux"
   author: Xavier Lasserre
   date: 2016-11-21 16:53:11
   content: |
@@ -10,7 +10,7 @@
     Et pour le petit mot de la fin, il est où mon port jack qui m’empêchait d’avoir une perte sur les fréquences basses et une retransmission « parfaite » de mon son car je n’étais pas obligé de passer par des adaptateurs multipliant les connexions ou du bluetooth rajoutant une compression du signal hein ? Il est où ? Ce bon vieux jack qui me permettait d’entendre chaque petit infime son participant à la beauté parfaite d’une musique que j’aurais téléchargé en ce format magique qu’est le FLAC ? /s 😉
 
 - id: "2"
-  slug: un-mac-pour-le-prix-de-deux
+  slug: "un-mac-pour-le-prix-de-deux"
   author: Guillaume Briday
   date: 2016-11-21 17:13:06
   content: |
@@ -679,3 +679,12 @@
     Pour utiliser Docker comme service pour le runner oui il doit être installé sinon le runner ne pourra pas se connecter sur la socket de Docker.
 
     Tu n'as rien besoin de faire de plus, une fois installé Gitlab runner s'occupe de tout
+
+- id: "59"
+  slug: "problemes-de-produits-cartesiens-sur-mysql"
+  author: Victor
+  date: 2019-07-11 16:53:00
+  content: |
+    Merci Guillaume, votre article m'a permis de sortir d'un impasse.
+
+    Bonne journée    
