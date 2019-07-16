@@ -50,7 +50,7 @@ module.exports = {
         'outline-indigo': '0 0 1px 6px rgba(178, 183, 255, 0.5)',
       },
       screens: {
-        'dark-mode': { raw: '(prefers-color-scheme: dark)' },
+        'dark-mode': { raw: '(prefers-color-scheme: light)' },
       },
     },
   },

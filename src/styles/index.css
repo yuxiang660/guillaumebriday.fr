@@ -1,8 +1,8 @@
-@import "./vendors/_prism-onedark";
+@import "vendors/prism-onedark";
 
-@import "./layouts/_base";
+@import "layouts/base";
 
-@import "./components/_btn";
-@import "./components/_post";
-@import "./components/_nav";
-@import "./components/_form";
+@import "components/btn";
+@import "components/post";
+@import "components/nav";
+@import "components/form";

@@ -117,7 +117,6 @@ module.exports = {
         icon: 'src/images/icon.png',
       },
     },
-    'gatsby-plugin-offline',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-robots-txt',
     {
@@ -177,6 +176,7 @@ module.exports = {
             }
           `,
             output: '/feed.xml',
+            title: 'Guillaume Briday',
           },
         ],
       },
