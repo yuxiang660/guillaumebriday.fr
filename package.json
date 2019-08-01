@@ -56,7 +56,7 @@
     "react-markdown": "4.1.0",
     "react-transition-group": "4.2.1",
     "smooth-scroll": "16.1.0",
-    "tailwindcss": "1.0.5",
+    "tailwindcss": "1.0.6",
     "typeface-roboto": "0.0.75"
   },
   "devDependencies": {
