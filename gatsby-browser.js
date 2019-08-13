@@ -33,6 +33,7 @@ import {
 import './src/styles/tailwind.css'
 import './src/styles/index.css'
 import SmoothScroll from 'smooth-scroll'
+import 'lightgallery.js'
 import 'typeface-roboto'
 
 library.add(
@@ -62,6 +63,8 @@ library.add(
   faPaypal
 )
 
+
+
 export const onRouteUpdate = () => {
   new SmoothScroll('a[href*="#"]', {
     duration: 350,
@@ -69,4 +72,8 @@ export const onRouteUpdate = () => {
     offset: 30,
     updateURL: false,
   })
+
+  debugger
+
+  // new lightGallery(document.querySelector('#lightgallery'))
 }
