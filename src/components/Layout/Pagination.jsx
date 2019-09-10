@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function({ pageContext: { currentPage, numPages } }) {
   const isFirst = currentPage === 1
@@ -40,17 +39,41 @@ export default function({ pageContext: { currentPage, numPages } }) {
       rel="prev"
       aria-label="Page précédente"
     >
-      <FontAwesomeIcon
-        icon="arrow-left"
-        className="text-gray-700 hover:text-indigo-500"
-      />
+      <svg
+        viewBox="0 0 17 13"
+        className="w-4 text-gray-700 hover:text-indigo-500 stroke-current"
+      >
+        <g
+          strokeWidth="1"
+          fill="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <g transform="translate(1.000000, 0.000000)">
+            <path d="M0,5.8325 L15,5.8325"></path>
+            <polyline points="5.83333333 0 0 5.83333333 5.83333333 11.6666667"></polyline>
+          </g>
+        </g>
+      </svg>
     </Link>
   )
 
   if (isFirst) {
     prevTag = (
       <span className="mx-4">
-        <FontAwesomeIcon icon="arrow-left" className="text-gray-700" />
+        <svg viewBox="0 0 17 13" className="w-4 text-gray-700 stroke-current">
+          <g
+            strokeWidth="1"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <g transform="translate(1.000000, 0.000000)">
+              <path d="M0,5.8325 L15,5.8325"></path>
+              <polyline points="5.83333333 0 0 5.83333333 5.83333333 11.6666667"></polyline>
+            </g>
+          </g>
+        </svg>
       </span>
     )
   }
@@ -62,17 +85,45 @@ export default function({ pageContext: { currentPage, numPages } }) {
       rel="prenextv"
       aria-label="Page suivante"
     >
-      <FontAwesomeIcon
-        icon="arrow-right"
-        className="text-gray-700 hover:text-indigo-500"
-      />
+      <svg
+        viewBox="0 0 17 13"
+        className="w-4 text-gray-700 hover:text-indigo-500 stroke-current"
+      >
+        <g
+          strokeWidth="1"
+          fill="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <g transform="translate(1.000000, 0.000000)">
+            <g transform="translate(7.500000, 6.000000) scale(-1, 1) translate(-7.500000, -6.000000) ">
+              <path d="M0,5.8325 L15,5.8325"></path>
+              <polyline points="5.83333333 0 0 5.83333333 5.83333333 11.6666667"></polyline>
+            </g>
+          </g>
+        </g>
+      </svg>
     </Link>
   )
 
   if (isLast) {
     nextTag = (
       <span className="mx-4">
-        <FontAwesomeIcon icon="arrow-right" className="text-gray-700" />
+        <svg viewBox="0 0 17 13" className="w-4 text-gray-700 stroke-current">
+          <g
+            strokeWidth="1"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <g transform="translate(1.000000, 0.000000)">
+              <g transform="translate(7.500000, 6.000000) scale(-1, 1) translate(-7.500000, -6.000000) ">
+                <path d="M0,5.8325 L15,5.8325"></path>
+                <polyline points="5.83333333 0 0 5.83333333 5.83333333 11.6666667"></polyline>
+              </g>
+            </g>
+          </g>
+        </svg>
       </span>
     )
   }

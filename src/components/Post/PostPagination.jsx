@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default ({ pageContext: { previous, next } }) => (
   <div className="my-6 py-6 flex flex-wrap border-t border-indigo-500">
@@ -13,8 +12,23 @@ export default ({ pageContext: { previous, next } }) => (
               rel="prev"
               className="btn btn--lightest btn--sm"
             >
-              <FontAwesomeIcon icon="chevron-left" className="mr-1" /> Article
-              précédent
+              <svg
+                viewBox="0 0 17 13"
+                className="w-4 stroke-current mr-1 inline"
+              >
+                <g
+                  strokeWidth="1"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <g transform="translate(1.000000, 0.000000)">
+                    <path d="M0,5.8325 L15,5.8325"></path>
+                    <polyline points="5.83333333 0 0 5.83333333 5.83333333 11.6666667"></polyline>
+                  </g>
+                </g>
+              </svg>
+              Article précédent
             </Link>
           </div>
 
@@ -39,7 +53,24 @@ export default ({ pageContext: { previous, next } }) => (
               className="btn btn btn--lightest btn--sm"
             >
               Article suivant{' '}
-              <FontAwesomeIcon icon="chevron-right" className="ml-1" />
+              <svg
+                viewBox="0 0 17 13"
+                className="w-4 stroke-current ml-1 inline"
+              >
+                <g
+                  strokeWidth="1"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <g transform="translate(1.000000, 0.000000)">
+                    <g transform="translate(7.500000, 6.000000) scale(-1, 1) translate(-7.500000, -6.000000) ">
+                      <path d="M0,5.8325 L15,5.8325"></path>
+                      <polyline points="5.83333333 0 0 5.83333333 5.83333333 11.6666667"></polyline>
+                    </g>
+                  </g>
+                </g>
+              </svg>
             </Link>
           </div>
 

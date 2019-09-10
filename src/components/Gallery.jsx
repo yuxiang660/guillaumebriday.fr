@@ -76,6 +76,7 @@ class Gallery extends Component {
 
     return <>{gallery}</>
   }
+
   render() {
     return (
       <>
