@@ -687,4 +687,34 @@
   content: |
     Merci Guillaume, votre article m'a permis de sortir d'un impasse.
 
-    Bonne journée    
+    Bonne journée
+
+- id: "60"
+  slug: "changer-de-fenetres-d-une-meme-application-sur-macOS"
+  author: Kambro
+  date: 2019-09-21 08:42:00
+  content: |
+    Merci pour cette astuce.
+
+- id: "61"
+  slug: "docker-ameliorer-les-performances-avec-le-cache"
+  author: Ciaccafava
+  date: 2019-09-21 08:42:00
+  content: |
+    Merci pour cet article bien écrit, ça m'a bien servi :)
+
+- id: "62"
+  slug: "comprendre-et-mettre-en-place-docker"
+  author: Ciaccafava
+  date: 2019-09-21 08:42:00
+  content: |
+    salut!
+    c’est vraiment un bon tutoriel,
+    ça mas aidé a mieux comprendre
+
+- id: "63"
+  slug: "comprendre-et-mettre-en-place-docker"
+  author: Yatagami
+  date: 2019-05-10 15:33:00
+  content: |
+    Bon article, clair et concis ça fait plaisir, au plaisir d'en lire un autre. :)
