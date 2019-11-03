@@ -73,6 +73,13 @@ module.exports = {
         name: 'comments',
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/data`,
+        name: 'talks',
+      },
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {

@@ -1,0 +1,38 @@
+---
+- title: "Comment utiliser Docker pour s'auto-héberger ?"
+  date: 2019-03-26
+  slides_url: https://docker-birthday-6-slides.netlify.com/
+  meetup_url: https://www.meetup.com/Docker-Lyon/events/259440746/
+  description: |
+    Sur le thème de "How do you docker ?". J'ai d'abord rappelé les
+    avantages et inconvénients de l'auto-hébergement. J'ai ensuite
+    présenté comment je l'ai mis en place avec
+    <a href="https://traefik.io/">Traefik</a> et
+    <a href="https://www.docker.com/">Docker</a>.
+
+- title: "Stack Wars"
+  date: 2019-03-27
+  slides_url:
+  meetup_url: https://www.meetup.com/LyonRB/events/259097092/
+  description: |
+
+- title: "Edition spéciale Ruby"
+  date: 2019-05-06
+  slides_url:
+  meetup_url: https://www.meetup.com/LyonRB/events/260740840
+  description: |
+
+- title: "Comment Ruby différencie les Constantes, les Variables et les méthodes ?"
+  date: 2019-09-18
+  slides_url: https://stranger-ruby.netlify.com/
+  meetup_url: https://www.meetup.com/LyonRB/events/263402616
+  description: |
+    Lightning talk sur le fonctionnement des constantes, des variables et des méthodes en Ruby et en quoi cela est différent de beaucoup de langages.
+
+- title: "L'intégration de Vue.js dans un framework Backend"
+  date: 2019-10-30
+  slides_url: https://speciale-lyon-rb-x-vue-js.netlify.com/
+  meetup_url: https://www.meetup.com/LyonRB/events/265178775/
+  description: |
+    Retour d'expérience après 3 ans à travailler avec Vue, React, Laravel et Rails.
+    Présentation des différentes approches d'intégrations possibles de ces technologies entre elles et des problématiques et solutions que cela engendre.

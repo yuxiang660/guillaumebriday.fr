@@ -13,7 +13,7 @@ const searchClient = algoliasearch(
 export default ({ isBlog }) => {
   const activeClassName = isActive => {
     let classes =
-      'header-link flex-shrink-0 hover:no-underline hover:text-indigo-500 relative mr-8 my-2 md:my-0 font-semibold'
+      'header-link flex-shrink-0 hover:no-underline hover:text-indigo-500 relative mr-8 my-2 lg:my-0 font-semibold'
     let activeClasses = isActive
       ? 'active text-indigo-500'
       : 'text-gray-900 dark-mode:text-white'
@@ -29,7 +29,7 @@ export default ({ isBlog }) => {
   return (
     <header className="px-3 shadow">
       <nav className="container max-w-6xl text-gray">
-        <div className="-my-2px py-4 flex flex-col md:flex-row flex-wrap justify-between items-baseline">
+        <div className="-my-2px py-4 flex flex-col lg:flex-row flex-wrap justify-between items-baseline">
           <Link
             className="mr-4 text-2xl text-gray-700 dark-mode:text-white hover:no-underline flex-shrink-0 font-normal"
             to="/"
@@ -40,9 +40,13 @@ export default ({ isBlog }) => {
             </span>
           </Link>
 
-          <div className="flex flex-col md:flex-row items-baseline w-full md:w-auto">
+          <div className="flex flex-col lg:flex-row items-baseline w-full lg:w-auto">
             <Link getProps={classNameBlog} to="/articles">
               Articles
+            </Link>
+
+            <Link getProps={classNameBlog} to="/talks">
+              Talks
             </Link>
 
             <Link getProps={className} to="/photos">
@@ -53,7 +57,7 @@ export default ({ isBlog }) => {
               Mon profil
             </Link>
 
-            <div className="flex items-baseline inline border border-indigo-500 rounded-full mt-2 md:mt-0 py-1 px-2 pr-4 leading-tight w-full">
+            <div className="flex items-baseline inline border border-indigo-500 rounded-full mt-2 lg:mt-0 py-1 px-2 pr-4 leading-tight w-full">
               <InstantSearch indexName="blog" searchClient={searchClient}>
                 <Index indexName="blog">
                   <Configure hitsPerPage={5} />
