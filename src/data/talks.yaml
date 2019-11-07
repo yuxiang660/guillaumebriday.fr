@@ -26,6 +26,7 @@
   date: 2019-09-18
   slides_url: https://stranger-ruby.netlify.com/
   meetup_url: https://www.meetup.com/LyonRB/events/263402616
+  video_url: https://www.youtube.com/watch?v=MvgbOtEGpP0
   description: |
     Lightning talk sur le fonctionnement des constantes, des variables et des méthodes en Ruby et en quoi cela est différent de beaucoup de langages.
 

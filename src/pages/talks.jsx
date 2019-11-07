@@ -16,7 +16,7 @@ export default ({ data: { site, allTalksYaml } }) => (
 
       <ul className="list-reset mb-8">
         {allTalksYaml.edges.map(({ node: talk }, i) => (
-          <li className="mb-12" key={i}>
+          <li className="mb-8" key={i}>
             <h2 className="font-semibold mb-0 mt-2 leading-tight">
               {talk.title}
             </h2>
@@ -31,10 +31,16 @@ export default ({ data: { site, allTalksYaml } }) => (
             <div>
               <p dangerouslySetInnerHTML={{ __html: talk.description }} />
 
-              <p>
+              <p className="flex flex-col md:flex-row">
                 {talk.slides_url && (
-                  <a href={talk.slides_url} className="mr-4">
+                  <a href={talk.slides_url} className="mr-4 mb-4">
                     Voir les slides →
+                  </a>
+                )}
+
+                {talk.video_url && (
+                  <a href={talk.video_url} className="mr-4 mb-4">
+                    Voir la vidéo →
                   </a>
                 )}
 
@@ -67,6 +73,7 @@ export const pageQuery = graphql`
           date: date(formatString: "DD MMMM YYYY", locale: "fr")
           meetup_url
           slides_url
+          video_url
         }
       }
     }
