@@ -4,7 +4,7 @@
   "author": "Guillaume Briday",
   "scripts": {
     "build": "gatsby build",
-    "develop": "rm -rf .cache public && gatsby develop",
+    "develop": "gatsby develop",
     "serve": "gatsby build && gatsby serve",
     "serve:production": "NODE_ENV=production gatsby build && gatsby serve",
     "format": "prettier --write '{**/*,*}.{js,jsx}'"
@@ -27,6 +27,7 @@
     "gatsby-plugin-postcss": "2.1.14",
     "gatsby-plugin-purgecss": "4.0.1",
     "gatsby-plugin-react-helmet": "3.1.14",
+    "gatsby-plugin-remove-serviceworker": "1.0.0",
     "gatsby-plugin-robots-txt": "1.5.0",
     "gatsby-plugin-sharp": "2.2.37",
     "gatsby-plugin-sitemap": "2.2.20",

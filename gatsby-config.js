@@ -124,6 +124,7 @@ module.exports = {
         icon: 'src/images/icon.png',
       },
     },
+    'gatsby-plugin-remove-serviceworker',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-robots-txt',
     {
