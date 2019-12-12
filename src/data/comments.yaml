@@ -718,3 +718,63 @@
   date: 2019-05-10 15:33:00
   content: |
     Bon article, clair et concis ça fait plaisir, au plaisir d'en lire un autre. :)
+
+- id: "64"
+  slug: "configurer-un-routeur-synology-rt1900ac-avec-une-livebox-orange"
+  author: chaouqui
+  date: 2019-09-29 15:25:00
+  content: |
+    bonjour de l'espoire avec ce tuto :) merci
+
+    avants de m'acheter un RT2600AC y a t'il une mise a jour du routeur a fin de ce passer du routeur orange
+    comme sur mon rt-n66u en vlan 835
+
+- id: "65"
+  slug: "os-x-monter-disque-reseau-demarrage"
+  author: ElSandwicho
+  date: 2019-11-18 15:25:00
+  content: |
+    C'est en effet comme ça que je m'y étais pris, mais j'ai un autre souci du coup, mes trois lecteurs réseau s'affichent dans des fenêtres au démarrage de ma session, j'aimerai qu'ils apparaissent simplement dans le Finder, sans devoir fermer trois fenêtres à chaque démarrage de session..^^
+
+    Si vous avez une astuce, je prends !
+
+- id: "66"
+  slug: "laravel-vuejs-faire-une-todo-list-partie-7-gerer-nos-taches-avec-vuex-et-axios"
+  author: diego
+  date: 2019-11-29 17:14:00
+  content: |
+    Nice
+
+- id: "67"
+  slug: "installer-et-utiliser-les-gitlab-runners"
+  author: Georges
+  date: 2019-12-09 14:14:00
+  content: |
+    Bonjour Guillaume,
+
+    Merci pour votre tuto.
+
+    Je suis débutant sur les sujets CI/CD et sur gitlab.
+
+    J'ai quelques notions de git mais pas plus.
+
+    Je me demande donc à la lecture de votre article où  s'éxécute un runner (non pas ce sur quoi il agit).
+    Est-ce sur la machine du développeur ou sur un serveur de staging ou prod?
+    Deuxième question où est-il stocké ? La registry officielle de docker, la registry gitlab ?
+
+    Merci pour vos réponses
+
+    Georges
+
+- id: "68"
+  slug: "installer-et-utiliser-les-gitlab-runners"
+  author: Guillaume Briday
+  date: 2019-12-12 14:08:00
+  content: |
+    Bonjour Georges,
+
+    Le runner peut être n'importe où mais doit être dimensionné en fonction de vos besoins. Habituellement, et c'est le plus simple, c'est qu'il soit sur le même serveur que Gitlab lui-même.
+
+    Il n'y a pas de notion de stockage pour un runner, son rôle est simplement d'exécuter des tâches.
+
+    Guillaume
