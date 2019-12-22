@@ -17,16 +17,4 @@
   &:disabled {
     @apply bg-gray-400 cursor-not-allowed;
   }
-
-  @screen dark-mode {
-    @apply bg-indigo-800 text-indigo-300;
-
-    &--link:not(:disabled):hover {
-      @apply text-white;
-    }
-
-    &:disabled {
-      @apply bg-indigo-900 text-indigo-300;
-    }
-  }
 }

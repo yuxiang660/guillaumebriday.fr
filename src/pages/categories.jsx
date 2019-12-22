@@ -19,7 +19,7 @@ export default ({
   <>
     <Helmet title={`Catégories | ${site.siteMetadata.title}`} />
     <div className="container py-16 px-3 mx-auto max-w-3xl">
-      <h1 className="dark-mode:text-white">Catégories</h1>
+      <h1>Catégories</h1>
 
       <ul className="list-reset pt-4 pb-8 border-b overflow-x-scroll whitespace-no-wrap shadow-md md:shadow-none px-3 -mx-3">
         {group.map(category => (
@@ -53,13 +53,13 @@ export default ({
                 <h2 className="font-semibold m-0 leading-tight">
                   <Link
                     to={post.fields.slug}
-                    className="text-black dark-mode:text-white"
+                    className="text-black"
                   >
                     <span itemProp="name">{post.frontmatter.title}</span>
                   </Link>
                 </h2>
 
-                <div className="text-gray-700 dark-mode:text-gray text-sm">
+                <div className="text-gray-700 text-sm">
                   Le{' '}
                   <span
                     itemProp="datePublished"

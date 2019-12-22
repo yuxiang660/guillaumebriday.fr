@@ -171,7 +171,7 @@ export default class CommentForm extends Component {
             <input type="hidden" name="form-name" value="comment" />
             <input type="hidden" name="slug" value={slug} required />
 
-            <p className="text-sm text-gray-700 dark-mode:text-gray-500">
+            <p className="text-sm text-gray-700">
               Votre adresse de messagerie ne sera pas publiée.
               <br />
               Les champs obligatoires sont indiqués avec{' '}
@@ -179,7 +179,7 @@ export default class CommentForm extends Component {
             </p>
 
             <div className="my-4 inline-block w-full md:w-1/2 md:pr-2">
-              <label htmlFor="name" className="dark-mode:text-white">
+              <label htmlFor="name">
                 Nom <span className="text-red-400">*</span>
               </label>
               <input
@@ -195,7 +195,7 @@ export default class CommentForm extends Component {
             </div>
 
             <div className="my-4 inline-block w-full md:w-1/2 md:pl-2">
-              <label htmlFor="email" className="dark-mode:text-white">
+              <label htmlFor="email">
                 Email <span className="text-red-400">*</span>
               </label>
               <input
@@ -211,7 +211,7 @@ export default class CommentForm extends Component {
             </div>
 
             <div className="my-4">
-              <label htmlFor="content" className="dark-mode:text-white">
+              <label htmlFor="content">
                 Commentaire <span className="text-red-400">*</span>
               </label>
               <textarea

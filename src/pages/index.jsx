@@ -13,9 +13,9 @@ export default ({ data: { file } }) => (
           alt="Photo de profil"
         />
 
-        <h1 className="mr-4 text-3xl text-gray-700 dark-mode:text-white font-normal mt-4">
+        <h1 className="mr-4 text-3xl text-gray-700 font-normal mt-4">
           Guillaume{' '}
-          <span className="font-extrabold text-black dark-mode:text-white">
+          <span className="font-extrabold text-black">
             BRIDAY
           </span>
         </h1>

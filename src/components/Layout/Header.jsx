@@ -16,7 +16,7 @@ export default ({ isBlog }) => {
       'header-link flex-shrink-0 hover:no-underline hover:text-indigo-500 relative mr-8 my-2 lg:my-0 font-semibold'
     let activeClasses = isActive
       ? 'active text-indigo-500'
-      : 'text-gray-900 dark-mode:text-white'
+      : 'text-gray-900'
 
     return { className: [classes, activeClasses].join(' ') }
   }
@@ -31,11 +31,11 @@ export default ({ isBlog }) => {
       <nav className="container max-w-6xl text-gray">
         <div className="-my-2px py-4 flex flex-col lg:flex-row flex-wrap justify-between items-baseline">
           <Link
-            className="mr-4 text-2xl text-gray-700 dark-mode:text-white hover:no-underline flex-shrink-0 font-normal"
+            className="mr-4 text-2xl text-gray-700 hover:no-underline flex-shrink-0 font-normal"
             to="/"
           >
             Guillaume{' '}
-            <span className="font-extrabold text-black dark-mode:text-white">
+            <span className="font-extrabold text-black">
               BRIDAY
             </span>
           </Link>

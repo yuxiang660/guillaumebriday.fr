@@ -23,13 +23,13 @@ export default ({ posts }) => (
           <h2 className="font-semibold mb-0 mt-2 leading-tight">
             <Link
               to={post.fields.slug}
-              className="text-black dark-mode:text-white"
+              className="text-black"
             >
               <span itemProp="name">{post.frontmatter.title}</span>
             </Link>
           </h2>
 
-          <div className="text-gray-700 dark-mode:text-gray-500 text-sm">
+          <div className="text-gray-700 text-sm">
             Le{' '}
             <span
               itemProp="datePublished"

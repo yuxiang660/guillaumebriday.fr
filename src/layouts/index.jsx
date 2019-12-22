@@ -32,7 +32,7 @@ const Layout = ({ children, location, pageContext }) => {
         ]}
       />
 
-      <div className="flex flex-col min-h-screen font-sans leading-normal dark-mode:bg-black">
+      <div className="flex flex-col min-h-screen font-sans leading-normal">
         {pageContext.isBlog && <ScrollIndicator />}
 
         <Header isBlog={pageContext.isBlog} />

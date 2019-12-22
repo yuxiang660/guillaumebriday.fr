@@ -7,7 +7,7 @@ export default ({ data: { markdownRemark: page, site } }) => (
     <Helmet title={`${page.frontmatter.title} | ${site.siteMetadata.title}`} />
 
     <div className="container px-3 py-16 mx-auto max-w-3xl">
-      <h1 className="leading-tight dark-mode:text-white">
+      <h1 className="leading-tight">
         {page.frontmatter.title}
       </h1>
 

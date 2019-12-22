@@ -27,7 +27,7 @@ export default ({
         <PostPagination pageContext={pageContext} />
       </div>
 
-      <div className="bg-gray-200 dark-mode:bg-gray-900">
+      <div className="bg-gray-200">
         <div className="container px-3 max-w-3xl py-16">
           <CommentList allCommentsYaml={allCommentsYaml} post={post} />
         </div>

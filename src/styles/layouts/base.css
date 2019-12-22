@@ -32,10 +32,6 @@ h3 {
 a {
   @apply no-underline text-indigo-500;
 
-  @screen dark-mode {
-    @apply text-white;
-  }
-
   &:hover {
     @apply underline;
   }

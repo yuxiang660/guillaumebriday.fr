@@ -7,9 +7,9 @@ export default ({ data: { site, allTalksYaml } }) => (
     <Helmet title={`Talks | ${site.siteMetadata.title}`} />
 
     <div className="container py-16 px-3 mx-auto max-w-3xl">
-      <h1 className="dark-mode:text-white">Talks</h1>
+      <h1>Talks</h1>
 
-      <p className="font-light text-gray-700 dark-mode:text-gray-500 text-sm mb-12">
+      <p className="font-light text-gray-700 text-sm mb-12">
         Il arrive que je fasse des talks de temps à autre. Tu trouveras ici la
         liste complète avec les vidéos et les slides.
       </p>
@@ -21,7 +21,7 @@ export default ({ data: { site, allTalksYaml } }) => (
               {talk.title}
             </h2>
 
-            <div className="text-gray-700 dark-mode:text-gray-500 text-sm">
+            <div className="text-gray-700 text-sm">
               Le{' '}
               <time className="font-light" dateTime={talk.datePublished}>
                 {talk.date}
