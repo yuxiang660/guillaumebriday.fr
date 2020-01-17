@@ -40,10 +40,7 @@ export default ({ post, allCommentsYaml }) => {
             </span>
           </div>
 
-          <div
-            className="mt-4 break-words"
-            itemProp="text"
-          >
+          <div className="mt-4 break-words" itemProp="text">
             <ReactMarkdown source={comment.content} />
           </div>
         </div>

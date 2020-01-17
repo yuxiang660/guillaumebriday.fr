@@ -14,9 +14,7 @@ export default ({ isBlog }) => {
   const activeClassName = isActive => {
     let classes =
       'header-link flex-shrink-0 hover:no-underline hover:text-indigo-500 relative mr-8 my-2 lg:my-0 font-semibold'
-    let activeClasses = isActive
-      ? 'active text-indigo-500'
-      : 'text-gray-900'
+    let activeClasses = isActive ? 'active text-indigo-500' : 'text-gray-900'
 
     return { className: [classes, activeClasses].join(' ') }
   }
@@ -34,10 +32,7 @@ export default ({ isBlog }) => {
             className="mr-4 text-2xl text-gray-700 hover:no-underline flex-shrink-0 font-normal"
             to="/"
           >
-            Guillaume{' '}
-            <span className="font-extrabold text-black">
-              BRIDAY
-            </span>
+            Guillaume <span className="font-extrabold text-black">BRIDAY</span>
           </Link>
 
           <div className="flex flex-col lg:flex-row items-baseline w-full lg:w-auto">

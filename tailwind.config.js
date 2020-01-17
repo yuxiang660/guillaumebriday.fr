@@ -48,7 +48,7 @@ module.exports = {
       },
       boxShadow: {
         'outline-indigo': '0 0 1px 6px rgba(178, 183, 255, 0.5)',
-      }
+      },
     },
   },
 }

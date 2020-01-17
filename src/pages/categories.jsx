@@ -51,10 +51,7 @@ export default ({
                 itemType="http://schema.org/BlogPosting"
               >
                 <h2 className="font-semibold m-0 leading-tight">
-                  <Link
-                    to={post.fields.slug}
-                    className="text-black"
-                  >
+                  <Link to={post.fields.slug} className="text-black">
                     <span itemProp="name">{post.frontmatter.title}</span>
                   </Link>
                 </h2>

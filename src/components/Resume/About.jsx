@@ -12,10 +12,7 @@ export default ({ file }) => (
         />
 
         <h1 className="mr-4 text-3xl text-gray-700 font-normal">
-          Guillaume{' '}
-          <span className="font-extrabold text-black">
-            BRIDAY
-          </span>
+          Guillaume <span className="font-extrabold text-black">BRIDAY</span>
         </h1>
       </div>
     </div>
