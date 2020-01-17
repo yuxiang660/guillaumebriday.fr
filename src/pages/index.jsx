@@ -14,10 +14,7 @@ export default ({ data: { file } }) => (
         />
 
         <h1 className="mr-4 text-3xl text-gray-700 font-normal mt-4">
-          Guillaume{' '}
-          <span className="font-extrabold text-black">
-            BRIDAY
-          </span>
+          Guillaume <span className="font-extrabold text-black">BRIDAY</span>
         </h1>
       </div>
     </div>
@@ -26,13 +23,23 @@ export default ({ data: { file } }) => (
       <p>
         Je suis développeur Web avec l'envie de partager ce que j'aime sur ce
         blog. Tu y trouveras tous <Link to="/articles">les articles</Link> que
-        j'écris au fil de mes recherches.
+        j'écris au fil de mes recherches. Je fais également{' '}
+        <Link to="/talks">des talks</Link> sur divers sujets autour du Web.
       </p>
 
       <p>
         Je travaille sur{' '}
         <a href="https://github.com/guillaumebriday">des projets open source</a>{' '}
         que tu peux retrouver sur Github.
+      </p>
+
+      <p>
+        Je suis membre de l'association{' '}
+        <a href="http://www.lyonenglishtoastmasters.org/">
+          Lyon English Toastmasters
+        </a>{' '}
+        et désormais organisateur du{' '}
+        <a href="https://www.meetup.com/LyonRB/">Meetup Lyon.rb</a>.
       </p>
 
       <p>
